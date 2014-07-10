@@ -21,18 +21,28 @@ if (isset($_POST['add']))
     $runtime = $_POST['runtime'];
     $actors = $_POST['actors'];
     
-    $sql = "INSERT INTO movies (Name, Released, Runtime, Actors, created) VALUES ('$name','$released', '$runtime', '$actors', NOW())";
-       		
-	mysql_select_db('movies');
+    $sql = "SHOW TABLES LIKE '$name'";
+    
+    mysql_select_db('movies');
+    $retval = mysql_query($sql, $conn);
+    
+    if (mysql_num_rows($retval))   {
+    	echo "table already existed";
+    	mysql_close($conn);
+    } else {
+		$sql = "INSERT INTO movies (Name, Released, Runtime, Actors, created) VALUES ('$name','$released', '$runtime', '$actors', NOW())";
+			
+		mysql_select_db('movies');
 	
-	$retval = mysql_query($sql, $conn);
+		$retval = mysql_query($sql, $conn);
 	
-	if (!$retval)
-	{
-		die ('Could not enter data: ' . mysql_error());
+		if (!$retval)
+		{
+			die ('Could not enter data: ' . mysql_error());
+		}
+		echo "enetered data successfully\n";
+		mysql_close($conn);
 	}
-	echo "enetered data successfully\n";
-	mysql_close($conn);
 } else {
 
 ?>

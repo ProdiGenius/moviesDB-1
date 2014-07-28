@@ -24,74 +24,63 @@ if (isset($_POST['add']))
 
    	$name = sanitize($_POST['name']);
    	$name = mysql_real_escape_string($name);
-   	$released = sanitize($_POST['released']);
-    $runtime = $_POST['runtime'];
-    $actors = $_POST['actors'];
-    $link = $_POST['link'];
     
-    $sql = "SHOW TABLES LIKE '$name'";
+    $name = urlencode($name);
     
-    mysql_select_db('movies');
-    $retval = mysql_query($sql, $conn);
+    $link = sanitize($_POST['link']);
+    $link = mysql_real_escape_string($link);
     
-    if (mysql_num_rows($retval))   {
-        
-        echo "table already existed";
-  	
-  		$sql = "INSERT INTO $name (Name, Released, Runtime, Actors, created) VALUES ('$name','$released', '$runtime', '$actors', NOW())";
-			
-		mysql_select_db('movies');
+    $json = file_get_contents("http://www.omdbapi.com/?t=$name");
+    $details = json_decode($json);
+    
+    if ($details->Response=='True')
+    {
+		$sql = "SHOW TABLES LIKE '$name'";
 	
+		mysql_select_db('movies');
 		$retval = mysql_query($sql, $conn);
 	
-		if (!$retval)
-		{
-			die ('Could not enter data: ' . mysql_error());
+		if (mysql_num_rows($retval))   {
+		
+			echo "table already existed";
+	
+			$sql = "INSERT INTO `$name` (link, created) VALUES ('$link', NOW())";
+			
+			mysql_select_db('movies');
+	
+			$retval = mysql_query($sql, $conn);
+	
+			if (!$retval)
+			{
+				die ('Could not enter data: ' . mysql_error());
+			}
+			echo "enetered data successfully\n";
+	
+			mysql_close($conn);
+		} else {
+		
+			$sql_create = "CREATE TABLE `$name`
+					(id INT NOT NULL AUTO_INCREMENT, 
+					PRIMARY KEY (id), 
+					link VARCHAR(500), 
+					created DATETIME)
+					";
+				
+			$sql_insert= "INSERT INTO `$name`
+							(link, created)
+							VALUES ('$link', NOW())";
+	
+			mysql_query($sql_create, $conn) or die (mysql_error());
+			mysql_query($sql_insert, $conn) or die (mysql_error());
+
+		
+			echo "new table created.";  
+		
+			mysql_close($conn);
 		}
-		echo "enetered data successfully\n";
-  	
-    	mysql_close($conn);
-    } else {
-		
-		$sql = "CREATE TABLE `$name`
-				(id INT NOT NULL AUTO_INCREMENT, 
-				PRIMARY KEY (id), 
-				name VARCHAR(250), 
-				released VARCHAR(250), 
-				runtime VARCHAR (50), 
-				actors VARCHAR (500), 
-				created DATETIME);
-				
-				/*CREATE TABLE $name.links 
-				($name.linkId INT NOT NULL AUTO_INCREMENT,
-				PRIMARY KEY (id),
-				link VARCHAR (500) NOT NULL			
-				);
-				
-				CREATE TABLE $name.andlinks
-				($name.Id INT NOT NULL,
-				$name.linkId INT NOT NULL,
-				CONSTRAINT ML_.$name.MovieLink PRIMARY KEY (
-					$name.Id,
-					$name.linkId
-				),
-				FOREIGN KEY ($name.Id) REFERENCES $name ($name.Id),
-				FOREIGN KEY ($name.LinkId) REFERENCES $name.links ($name.linkId)
-				);
-				
-				INSERT INTO $name (Name, Released, Runtime, Actors, created) 
-				VALUES ('$name','$released', '$runtime', '$actors', NOW());				
-				
-				
-				INSERT INTO $name.links (link) 
-				VALUES ($link)*/
-				";
-    
-    	mysql_query($sql, $conn) or die (mysql_error());
-    	
-		echo "new table created.";  
-		
-		mysql_close($conn);
+	}
+	else {
+		echo "This film does not exist acording to IMDB.\n";
 	}
 } else {
 
@@ -103,21 +92,6 @@ if (isset($_POST['add']))
 <tr>
 <td width = "100">Movie Name</td>
 <td><input name = "name" type = "text" id = "name"></td>
-</tr>
-
-<tr>
-<td width = "100">Release Date</td>
-<td><input name = "released" type = "text" id = "released"></td>
-</tr>
-
-<tr>
-<td width = "100">Runtime</td>
-<td><input name = "runtime" type = "text" id = "runtime"></td>
-</tr>
-
-<tr>
-<td width = "100">Actors</td>
-<td><input name = "actors" type = "text" id = "actors"></td>
 </tr>
 
 <tr>

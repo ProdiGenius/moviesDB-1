@@ -41,9 +41,7 @@ if (isset($_POST['add']))
 		$retval = mysql_query($sql, $conn);
 	
 		if (mysql_num_rows($retval))   {
-		
-			echo "table already existed";
-	
+			
 			$sql = "INSERT INTO `$name` (link, created) VALUES ('$link', NOW())";
 			
 			mysql_select_db('movies');
@@ -54,7 +52,6 @@ if (isset($_POST['add']))
 			{
 				die ('Could not enter data: ' . mysql_error());
 			}
-			echo "enetered data successfully\n";
 	
 			mysql_close($conn);
 		} else {
@@ -72,15 +69,13 @@ if (isset($_POST['add']))
 	
 			mysql_query($sql_create, $conn) or die (mysql_error());
 			mysql_query($sql_insert, $conn) or die (mysql_error());
-
-		
-			echo "new table created.";  
 		
 			mysql_close($conn);
 		}
 	}
 	else {
-		echo "This film does not exist acording to IMDB.\n";
+		echo "This movie does not exist.";
+
 	}
 } else {
 

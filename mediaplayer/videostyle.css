@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#Home{
+	margin-left:auto;
+	margin-right:auto;
+	height:40px;
+	width:90px;
+	z-index:7;
+	font-family:Verdana;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	padding-top:17px;
+}
+#Home a{
+	color:white;
+}
+#Home:hover a{
+	color: #E1A304;
+}
+#Home:hover{
+	background-color: white;
+	color: #E1A304;
+}
+#disclaimer{
+	position:absolute;
+	top:5px;
+	width:590px;
+	height:35px;
+	border:0.5px solid #1c1c1c;
+	background-color:#FFF970;
+	border-radius:5px;
+	font-family:Verdana;
+	text-align:center;
+}
+#header{
+	position: fixed;
+	z-index: 6;
+    width: 100%;
+    height: 55px;
+    padding: 0px;
+	top:0px;
+	background-color: #E1A304;
+    opacity: 1;
+    background-image: none;
+}
+#page-content{
+	position:relative;
+	width: 1140px;
+	top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 0px dashed #1c1c1c;
+	min-height:100%;
+}
+.movieplayer-container{
+	height:550px;
+}
+#thirdPartyEmbContainer{
+	position:relative;
+	top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#sidebar-content{
+	position:relative;
+	top:50px;
+	width:70%;
+	margin-right:auto;
+	margin-left:auto;
+	border:0px dotted #1c1c1c;
+}
+#ad-box{
+	position:absolute;
+	top:0px;
+	width: 100%;
+	height: 235px;
+	background-color: #E4E4E4;
+	border: 0px solid #A6A6A6;
+	border-radius:3px;
+	margin-bottom:50px;
+}

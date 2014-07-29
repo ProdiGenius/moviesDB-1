@@ -129,7 +129,7 @@
 		<ul>
 		<?php
 					
-			$table_list = "SHOW TABLES FROM `movies` ";
+			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
 						
 			$rs = mysql_query($table_list);
 			

@@ -7,6 +7,8 @@
 <body>
 
 <?php	
+	include 'datalogin.php';
+	
 	$name = $_GET["id"];
 	
 	$name = urlencode($name);
@@ -36,23 +38,9 @@
 			echo "Metascore : ".$details->Metascore.'<br>';
 			echo "IMDB Rating : ".$details->imdbRating.'<br>';
 			echo "IMDB Votes : ".$details->imdbVotes.'<br>';
-			
-			$username = 'root';
-			$password = '';
 
-			$db = 'movies';
-
-			$conn = mysql_connect('localhost', $username, $password);
-			
-			if (! $conn)
-			{
-				die ('could not connect.');
-			}
-			
 			$sql = "SELECT link FROM `$name`";
-			
-			mysql_select_db('movies');
-			
+						
 			$retval = mysql_query($sql, $conn);
 			
 			if (! $retval)

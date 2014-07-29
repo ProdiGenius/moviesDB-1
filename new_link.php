@@ -6,15 +6,10 @@
 <body>
 <?php
 
+include 'datalogin.php';
+
 if (isset($_POST['add']))
 {
-	$username = 'root';
-	$password = '';
-
-	$db = 'movies';
-
-	$conn = mysql_connect('localhost', $username, $password);
-
     // Sanitize input
 	function sanitize($in) {
  		return addslashes(htmlspecialchars(strip_tags(trim($in))));
@@ -37,15 +32,12 @@ if (isset($_POST['add']))
     {
 		$sql = "SHOW TABLES LIKE '$name'";
 	
-		mysql_select_db('movies');
 		$retval = mysql_query($sql, $conn);
 	
 		if (mysql_num_rows($retval))   {
 			
 			$sql = "INSERT INTO `$name` (link, created) VALUES ('$link', NOW())";
-			
-			mysql_select_db('movies');
-	
+				
 			$retval = mysql_query($sql, $conn);
 	
 			if (!$retval)

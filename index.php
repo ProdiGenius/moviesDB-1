@@ -129,8 +129,8 @@
 		<ul>
 		<?php
 					
-			//$table_list = "SHOW TABLES FROM `yossil01_movies' ";
-            $table_list = "SHOW TABLES FROM $db ";
+			$table_list = "SHOW TABLES FROM `yossil01_movies' ";
+            //$table_list = "SHOW TABLES FROM `movies` ";
 						
 			$rs = mysql_query($table_list);
 			

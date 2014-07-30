@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_link.php" afterPath="$PROJECT_DIR$/new_link.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +37,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="12" selection-start="5237" selection-end="5237" vertical-scroll-proportion="0.3328424" vertical-offset="1724" max-vertical-offset="13425">
+            <state line="131" column="61" selection-start="5286" selection-end="5286" vertical-scroll-proportion="0.20029455" vertical-offset="1814" max-vertical-offset="13425">
               <folding />
             </state>
           </provider>
@@ -347,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="12" selection-start="5237" selection-end="5237" vertical-scroll-proportion="0.3328424" vertical-offset="1724" max-vertical-offset="13425">
+        <state line="131" column="61" selection-start="5286" selection-end="5286" vertical-scroll-proportion="0.20029455" vertical-offset="1814" max-vertical-offset="13425">
           <folding />
         </state>
       </provider>

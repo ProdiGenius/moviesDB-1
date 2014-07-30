@@ -111,17 +111,17 @@ if (isset($_POST['add']))
 <table width="400" border = "0" cellspacing = "1" cellpadding = "2">
 <tr>
 <td width = "100">Movie Name</td>
-<td><input name = "name" type = "text" id = "name"></td>
+<td><input name = "name" type = "text" id = "name" autocomplete="off"></td>
 </tr>
 
 <tr>
 <td width = "100">Link</td>
-<td><input name = "link" type = "text" id = "link"></td>
+<td><input name = "link" type = "text" id = "link" autocomplete="off"></td>
 </tr>
 
 <tr>
 <td width = "100">Host Site</td>
-<td><input name = "host" type = "text" id = "host"></td>
+<td><input name = "host" type = "text" id = "host" autocomplete="off"></td>
 </tr>
 
 <td width="100"> </td>

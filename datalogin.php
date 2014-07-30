@@ -7,15 +7,16 @@ $dbpass = "";
 $dbname = "movies";*/
 
 //!!!-STAGING ENVIRONMENT-!!!
-$url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+$url=parse_url(getenv("mysql://bd2198a363403a:e72fa6de@us-cdbr-iron-east-01.cleardb.net/heroku_d78f3829bda1f61?reconnect=true
+"));
 
-$dbhost = $url["localhost"];
-$dbuser = $url["bde3ebf2d90852"];
-$dbpass = $url["b3386aac"];
-$dbname = substr($url["heroku_87de99dde5d61b1"], 1);
+$server = $url["host"];
+$username = $url["user"];
+$pass = $url["pass"];
+$db = substr($url["path"], 1);
 
-mysqli_connect($dbhost, $dbuser, $dbpass);
-mysql_select_db($dbname);
+mysqli_connect($server, $username, $pass);
+mysql_select_db($db);
 
 //!!!-PRODUCTION ENVIRONMENT-!!!
 /*$dbhost = "localhost";

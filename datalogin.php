@@ -12,11 +12,12 @@ $url=parse_url(getenv("mysql://bd2198a363403a:e72fa6de@us-cdbr-iron-east-01.clea
 
 $server = $url["host"];
 $username = $url["user"];
-$pass = $url["pass"];
-$db = substr($url["path"], 1);
+$password = $url["pass"];
+$db = substr($url["path"],1);
 
-$dbcon = mysqli_connect($server, $username, $pass);
-mysqli_select_db($dbcon, $db);
+mysqli_connect($server, $username, $password, $db);
+
+//mysqli_select_db($db);
 
 //!!!-PRODUCTION ENVIRONMENT-!!!
 /*$dbhost = "localhost";

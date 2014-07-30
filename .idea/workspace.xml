@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="datalogin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
+            <state line="19" column="2" selection-start="439" selection-end="439" vertical-scroll-proportion="0.40425533" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="24" selection-start="5349" selection-end="5349" vertical-scroll-proportion="0.37702504" vertical-offset="1724" max-vertical-offset="13425">
+            <state line="130" column="20" selection-start="5233" selection-end="5233" vertical-scroll-proportion="-33.9" vertical-offset="240" max-vertical-offset="13425">
               <folding />
             </state>
           </provider>
@@ -105,8 +106,8 @@
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/datalogin.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/datalogin.php" />
       </list>
     </option>
   </component>
@@ -285,13 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="318" selection-end="319" vertical-scroll-proportion="-2.1" vertical-offset="0" max-vertical-offset="2250">
@@ -326,7 +320,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="24" selection-start="5349" selection-end="5349" vertical-scroll-proportion="0.37702504" vertical-offset="1724" max-vertical-offset="13425">
+        <state line="130" column="20" selection-start="5233" selection-end="5233" vertical-scroll-proportion="-33.9" vertical-offset="240" max-vertical-offset="13425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="439" selection-end="439" vertical-scroll-proportion="0.40425533" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="datalogin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="0.25531915" vertical-offset="0" max-vertical-offset="705">
+            <state line="12" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="22" selection-start="5174" selection-end="5174" vertical-scroll-proportion="-2.72" vertical-offset="1724" max-vertical-offset="13410">
+            <state line="125" column="22" selection-start="5174" selection-end="5174" vertical-scroll-proportion="0.20029455" vertical-offset="1724" max-vertical-offset="13410">
               <folding />
             </state>
           </provider>
@@ -288,13 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="22" selection-start="5174" selection-end="5174" vertical-scroll-proportion="-2.72" vertical-offset="1724" max-vertical-offset="13410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="1950">
@@ -326,7 +318,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datalogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="0.25531915" vertical-offset="0" max-vertical-offset="705">
+        <state line="12" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="22" selection-start="5174" selection-end="5174" vertical-scroll-proportion="0.20029455" vertical-offset="1724" max-vertical-offset="13410">
           <folding />
         </state>
       </provider>

@@ -15,8 +15,8 @@ $username = $url["user"];
 $pass = $url["pass"];
 $db = substr($url["path"], 1);
 
-mysqli_connect($server, $username, $pass);
-mysql_select_db($db);
+$dbcon = mysqli_connect($server, $username, $pass);
+mysqli_select_db($dbcon, $db);
 
 //!!!-PRODUCTION ENVIRONMENT-!!!
 /*$dbhost = "localhost";

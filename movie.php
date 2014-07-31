@@ -70,12 +70,14 @@
 
                 echo $results;
 
+                $results = json_decode($results);
+
                 echo('
 
                 <div id="thumbnail-box">
 
                 <a href="" title="' . $details->Title . ' (2014)">
-			    <img src=' . $arr["Poster"] . '/></a>
+			    <img src=' . $results->Poster . '/></a>
 
 			    </div>
 

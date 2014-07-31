@@ -82,8 +82,8 @@ if ($_POST)
         }
     }
     else {
-        echo "This movie does not exist.";
-
+        $output = json_encode(array('type' => 'error', 'text' => 'This movie does not exist. Please make sure you typed the name correctly.'));
+        die ($output);
     }
 } else { }
 

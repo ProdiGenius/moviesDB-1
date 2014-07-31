@@ -128,8 +128,11 @@
 		<div class="threeColList">
 		<ul>
 		<?php
-					
+
+
+            //PRODUCTION !!
 			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+            //STAGING !!
             //$table_list = "SHOW TABLES FROM `movies` ";
 						
 			$rs = mysql_query($table_list);

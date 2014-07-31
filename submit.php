@@ -51,13 +51,15 @@ if ($_POST)
 
             if (!$retval)
             {
+                $output = json_encode(array('type' => 'error', 'text' => 'Could not enter data.'));
                 die ('Could not enter data: ' . mysql_error());
             }
 
-            mysql_close($conn);
-
             $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
             die ($output);
+
+            mysql_close($conn);
+
         } else {
 
             $sql_create = "CREATE TABLE `$name`

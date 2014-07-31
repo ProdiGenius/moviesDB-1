@@ -856,6 +856,29 @@
 	</div>	
 	</div>
 </div>
+
+<div id="footer">
+    <div class="wrapper">
+        <div class="bottomMenu container firstone">
+            <h4>Site Links</h4>
+            <ul>
+                <li><a href="/keywords.html">Keywords</a></li>
+                <li><a href="/genres.html">Movie Genres</a></li>
+                <li><a href="/years.html">Movie Years</a></li>
+                <li><a href="/tv/genres.html">TV Show Genres</a></li>
+                <li><a href="/tv/years.html">TV Show Years</a></li>
+                <li><a href="/trends/">Trends</a></li>
+                <li><a href="/latest-watched-movies.html">Latest Watched</a></li>
+                <li><a href="/terms.html">Terms of Service</a></li>
+                <li><a href="/rules.html">Rules</a></li>
+                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="/contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        <p>
+            WatchItFree provides links to other sites on the internet and doesn't host any files itself.
+        </p>
+
 </div>
 <script type='text/javascript'> // Javascript for on.click button effects
 	jQuery(function() {		

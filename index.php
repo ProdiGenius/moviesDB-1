@@ -139,7 +139,7 @@
 			
 			while ($row = mysql_fetch_array($rs))
 			{
-				echo "<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>";
+				echo urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>");
 			}
 		?>
 		</ul>

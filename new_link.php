@@ -206,4 +206,5 @@
 </fieldset>
 
 </body>
+<script language="javascript" type="text/javascript" src="js/link_target.js"></script>
 </html>

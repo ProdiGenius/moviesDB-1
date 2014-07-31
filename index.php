@@ -6,9 +6,9 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 <script src="jquery-ui-1.8.13.custom.min.js"></script>
 <script src="jquery.min.js"></script>
-<script type='text/javascript' src="jssor.slider.mini.js"></script>
+<script type='text/javascript' src="js/jssor.slider.mini.js"></script>
 <title> Watch Movies and TV Shows Online for Free </title>
-<link rel='stylesheet' type ='text/css' href='style.css' />
+<link rel='stylesheet' type ='text/css' href='css/style.css' />
 </head>
 
 <body>
@@ -24,10 +24,10 @@
 	<div id="gallery">
 		<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 320px;
             overflow: hidden;">
-		<div><img u="image" src="cloudb.jpg" width="600" height="320" /></div>
-		<div><img u="image" src="inceptionb.jpg" width="600" height="320" /></div>
-		<div><img u="image" src="captainb.jpg" width="600" height="320" /></div>
-		<div><img u="image" src="avengersb.jpg" width="600" height="320" /></div>
+		<div><img u="image" src="resources/images/cloudb.jpg" width="600" height="320" /></div>
+		<div><img u="image" src="resources/images/inceptionb.jpg" width="600" height="320" /></div>
+		<div><img u="image" src="resources/images/captainb.jpg" width="600" height="320" /></div>
+		<div><img u="image" src="resources/images/avengersb.jpg" width="600" height="320" /></div>
 		</div>
 	</div>
 	<div id="video-cat-section">
@@ -102,27 +102,27 @@
 				<div>
 					<a href="/watch-the-amazing-spider-man-2-2014.html" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -134,12 +134,14 @@
 			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
             //STAGING !!
             //$table_list = "SHOW TABLES FROM `movies` ";
-						
-			$rs = mysql_query($table_list);
+
+            $counter = 0;
+
+			$rs = mysqli_query($conn, $table_list);
 			
-			while ($row = mysql_fetch_array($rs))
+			while ($row = mysqli_fetch_array($rs))
 			{
-				echo urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>");
+                echo urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>");
 			}
 		?>
 		</ul>
@@ -214,28 +216,28 @@
 				<div>
 					<a href="" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -342,28 +344,28 @@
 								<div>
 					<a href="" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -477,27 +479,27 @@
 				<div>
 					<a href="" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -603,28 +605,28 @@
 				<div>
 					<a href="" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -731,28 +733,28 @@
 								<div>
 					<a href="" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="spiderman.jpg"/></a>
+						src="resources/images/spiderman.jpg"/></a>
 				</div>
 				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="300.jpg"/></a>
+						src="resources/images/300.jpg"/></a>
 
 				</div>
 				<div><a href="" title="Captain America (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="divergent.jpg"/></a>
+						src="resources/images/divergent.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="captain.jpg"/></a>
+						src="resources/images/captain.jpg"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"
-						src="2.jpg"/></a>
+						src="resources/images/2.jpg"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">
@@ -913,5 +915,6 @@
 		var jssor_slider1 = new $JssorSlider$('gallery', options);
 	});
 </script>
+<script language="javascript" type="text/javascript" src="js/link_target.js"></script>
 </body>
 </html>

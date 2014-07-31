@@ -199,6 +199,11 @@
     </label>
 
     <label>
+        <?php
+        require_once('recaptchalib.php');
+        $publickey = "6LfZ2PcSAAAAAPRrLViwVozoN29rXFogRNIkQp5n"; // you got this from the signup page
+        echo recaptcha_get_html($publickey);
+        ?>
         <span>&nbsp;</span>
         <button class="submit_btn" id="submit">Submit</button>
     </label>

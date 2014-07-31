@@ -182,7 +182,7 @@
 
 <script type="text/javascript">
     var RecaptchaOptions = {
-        theme : 'theme_name'
+        theme : 'clean'
     };
 </script>
 

@@ -41,13 +41,13 @@ if ($_POST)
     {
         $sql = "SHOW TABLES LIKE '$name'";
 
-        $retval = mysql_query($sql, $conn);
+        $retval = mysqli_query($conn, $sql);
 
-        if (mysql_num_rows($retval))   {
+        if (mysqli_num_rows($retval))   {
 
             $sql = "INSERT INTO `$name` (link, host, created) VALUES ('$link', '$host', NOW())";
 
-            $retval = mysql_query($sql, $conn);
+            $retval = mysqli_query($conn, $sql);
 
             if (!$retval)
             {
@@ -58,7 +58,7 @@ if ($_POST)
             $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
             die ($output);
 
-            mysql_close($conn);
+            mysqli_close($conn);
 
         } else {
 
@@ -74,10 +74,10 @@ if ($_POST)
 							(link, created, host)
 							VALUES ('$link','$host', NOW())";
 
-            mysql_query($sql_create, $conn) or die (mysql_error());
-            mysql_query($sql_insert, $conn) or die (mysql_error());
+            mysqli_query($conn, $sql_create) or die (mysql_error());
+            mysqli_query($conn, $sql_insert) or die (mysql_error());
 
-            mysql_close($conn);
+            mysqli_close($conn);
 
             $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
             die ($output);

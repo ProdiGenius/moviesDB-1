@@ -38,12 +38,16 @@
             $details = json_decode($json);
 
             if ($details->Response == 'True') {
+
+                $homepage = file_get_contents("http://www.imdbapi.com/?t=$name");
+                $arr = json_decode($homepage, true);
+
                 echo('
 
                 <div id="thumbnail-box">
 
                 <a href="" title="' . $details->Title . ' (2014)">
-			    <img src=' . $details->Poster . '/></a>
+			    <img src=' . $arr["Poster"] . '/></a>
 
 			    </div>
 

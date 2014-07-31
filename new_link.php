@@ -180,6 +180,12 @@
 
 <body>
 
+<script type="text/javascript">
+    var RecaptchaOptions = {
+        theme : 'theme_name'
+    };
+</script>
+
 <fieldset id="link_form">
     <legend>Submit a new Link</legend>
     <div id="result"></div>

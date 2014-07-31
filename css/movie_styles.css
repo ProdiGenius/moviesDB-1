@@ -60,6 +60,8 @@ table {
 
     margin-top: 20px;
 
+    display: inline-block;
+
     width: 900px;
 
     font-family: 'Open Sans', sans-serif;

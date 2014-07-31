@@ -36,21 +36,18 @@
 
         $name = urlencode($name);
 
-        $tomatoe = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=fdwz6apy246kx4nn8sy4hgda&q=$name+3&page_limit=1";
 
         if (false !== ($json = file_get_contents("http://www.omdbapi.com/?t=$name"))) {
             $details = json_decode($json);
 
             if ($details->Response == 'True') {
 
-                $tomatoe = json_decode($tomatoe);
-
                 echo('
 
                 <div id="thumbnail-box">
 
                 <a href="" title="' . $details->Title . ' (2014)">
-			    <img src=' . $tomatoe->posters->profile . '/></a>
+			    <img src=' . $details->Poster . '/></a>
 
 			    </div>
 

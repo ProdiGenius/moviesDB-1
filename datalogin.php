@@ -25,6 +25,8 @@ $dbuser = "yossil01";
 $dbpass = "iopghj01";
 $dbname = "yossil01_movies";
 
+ini_set('user_agent', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.9) Gecko/20071025 Firefox/2.0.0.9');
+
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die("unable to connect to database.");
 mysqli_select_db($conn, $dbname) or die ("Unable to select");
 ?>

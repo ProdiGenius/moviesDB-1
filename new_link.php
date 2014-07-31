@@ -207,7 +207,7 @@
     <label>
         <?php
         require_once('recaptchalib.php');
-        $publickey = "6LfZ2PcSAAAAAPRrLViwVozoN29rXFogRNIkQp5n"; // you got this from the signup page
+        $publickey = "6LfR2vcSAAAAAKqEd2gA3Kc9m2vS-bINp9px0vp8"; // you got this from the signup page
         echo recaptcha_get_html($publickey);
         ?>
         <span>&nbsp;</span>

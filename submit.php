@@ -4,7 +4,7 @@ include 'datalogin.php';
 
 require_once('recaptchalib.php');
 
-$privatekey = "6LfZ2PcSAAAAAFZzVQt0FSKPhnbX13od2lGjPjxe";
+$privatekey = "6LfR2vcSAAAAAAqLhylORlU0GPvPs1meLHQtvkg5";
 
 
 if ($_POST) {
@@ -24,7 +24,7 @@ if ($_POST) {
         die ($output);
     }
 
-    $resp = recaptcha_check_answer($privatekey,
+    $resp = recaptcha_check_answer ($privatekey,
         $_SERVER["REMOTE_ADDR"],
         $_POST["recaptcha_challenge_field"],
         $_POST["recaptcha_response_field"]);

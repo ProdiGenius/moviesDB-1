@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search2.php" afterPath="$PROJECT_DIR$/search2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="datalogin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="30" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="555">
+            <state line="25" column="28" selection-start="595" selection-end="595" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.40425533" vertical-offset="1815" max-vertical-offset="13980">
+            <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="-11.875" vertical-offset="1815" max-vertical-offset="13980">
               <folding />
             </state>
           </provider>
@@ -139,10 +138,10 @@
         <option value="$PROJECT_DIR$/recaptchalib.php" />
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/submit.php" />
-        <option value="$PROJECT_DIR$/datalogin.php" />
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/search2.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/datalogin.php" />
       </list>
     </option>
   </component>
@@ -460,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="32" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2730">
@@ -495,7 +487,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.40425533" vertical-offset="1815" max-vertical-offset="13980">
+        <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="-11.875" vertical-offset="1815" max-vertical-offset="13980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="595" selection-end="595" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>

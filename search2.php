@@ -8,7 +8,7 @@ if(isset($_POST['searchquery']) && $_POST['searchquery'] != ""){
 	$searchquery = preg_replace('#[^a-z 0-9?!]#i', '', $_POST['searchquery']);
 	if($_POST['filter1'] == "Movies"){
 		//$sql = "SELECT name, id FROM '$searchquery' ";	
-		$sql = "SHOW TABLES FROM `movies`";
+		$sql = "SHOW TABLES FROM `yossil01_movies`";
 	} 
     $query = mysqli_query($conn,$sql) or die(mysqli_error($conn));
 	$count = mysqli_num_rows($query);

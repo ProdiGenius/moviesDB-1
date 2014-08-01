@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search2.php" afterPath="$PROJECT_DIR$/search2.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="32" selection-start="6018" selection-end="6018" vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="13995">
+            <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.40425533" vertical-offset="1815" max-vertical-offset="13980">
               <folding />
             </state>
           </provider>
@@ -64,14 +61,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search2.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.5744681" vertical-offset="105" max-vertical-offset="1125">
+            <state line="10" column="43" selection-start="354" selection-end="354" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1125">
               <folding>
-                <marker date="1406910731000" expanded="true" signature="1523:1575" placeholder="..." />
-                <marker date="1406910731000" expanded="true" signature="1530:1538" placeholder="..." />
-                <marker date="1406910731000" expanded="true" signature="1545:1575" placeholder="..." />
+                <marker date="1406910805000" expanded="true" signature="1532:1584" placeholder="..." />
+                <marker date="1406910805000" expanded="true" signature="1539:1547" placeholder="..." />
+                <marker date="1406910805000" expanded="true" signature="1554:1584" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -143,9 +140,9 @@
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/datalogin.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/search2.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -352,9 +349,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="19" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="765">
           <folding>
-            <marker date="1406910731000" expanded="true" signature="1523:1575" placeholder="..." />
-            <marker date="1406910731000" expanded="true" signature="1530:1538" placeholder="..." />
-            <marker date="1406910731000" expanded="true" signature="1545:1575" placeholder="..." />
+            <marker date="1406910805000" expanded="true" signature="1532:1584" placeholder="..." />
+            <marker date="1406910805000" expanded="true" signature="1539:1547" placeholder="..." />
+            <marker date="1406910805000" expanded="true" signature="1554:1584" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -485,21 +482,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/search2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="32" selection-start="6018" selection-end="6018" vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="13995">
-          <folding />
+        <state line="10" column="43" selection-start="354" selection-end="354" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1125">
+          <folding>
+            <marker date="1406910805000" expanded="true" signature="1532:1584" placeholder="..." />
+            <marker date="1406910805000" expanded="true" signature="1539:1547" placeholder="..." />
+            <marker date="1406910805000" expanded="true" signature="1554:1584" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search2.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.5744681" vertical-offset="105" max-vertical-offset="1125">
-          <folding>
-            <marker date="1406910731000" expanded="true" signature="1523:1575" placeholder="..." />
-            <marker date="1406910731000" expanded="true" signature="1530:1538" placeholder="..." />
-            <marker date="1406910731000" expanded="true" signature="1545:1575" placeholder="..." />
-          </folding>
+        <state line="141" column="14" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.40425533" vertical-offset="1815" max-vertical-offset="13980">
+          <folding />
         </state>
       </provider>
     </entry>

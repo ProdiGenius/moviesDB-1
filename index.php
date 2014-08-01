@@ -12,6 +12,12 @@
 </head>
 
 <body>
+<style type='text/css'>@import url('http://getbarometer.s3.amazonaws.com/assets/barometer/css/barometer.css');</style>
+<script src='http://getbarometer.s3.amazonaws.com/assets/barometer/javascripts/barometer.js' type='text/javascript'></script>
+<script type="text/javascript" charset="utf-8">
+    BAROMETER.load('5yaQ6cpkW2CbZs93bSjyb');
+</script>
+
 <?php
 	include 'datalogin.php';
 ?>
@@ -131,9 +137,9 @@
 
 
             //PRODUCTION !!
-			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+			//$table_list = "SHOW TABLES FROM `yossil01_movies` ";
             //STAGING !!
-            //$table_list = "SHOW TABLES FROM `movies` ";
+            $table_list = "SHOW TABLES FROM `movies` ";
 
             $counter = 0;
 

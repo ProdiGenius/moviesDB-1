@@ -24,16 +24,21 @@ if ($_POST) {
         die ($output);
     }
 
+    if (!isset($_POST["responseField"]))
+    {
+        $output = json_encode(array('type' => 'error', 'text' => 'CAPTCHA FIELDS EMPTY FOR FUCKS SAKE'));
+        die ($output);
+    }
+
     $resp = recaptcha_check_answer ($privatekey,
         $_SERVER["REMOTE_ADDR"],
-        $_POST["recaptcha_challenge_field"],
-        $_POST["recaptcha_response_field"]);
+        $_POST["challengeField"],
+        $_POST["responseField"]);
 
     if (!$resp->is_valid) {
         $output = json_encode(array('type' => 'error', 'text' => 'The captcha was not entered correctly. Try again.'));
         die ($output);
     } else {
-
 
         $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
         $link = filter_var($_POST["link"], FILTER_SANITIZE_URL);

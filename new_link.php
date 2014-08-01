@@ -12,6 +12,9 @@
             var link = $('input[name="link"]').val();
             var host = $('input[name="host"]').val();
 
+            var challengeField = $("#recaptcha_challenge_field").val();
+            var responseField = $("input#recaptcha_response_field").val();
+
             var proceed = true;
             if (name == "") {
                 $('input[name=name]').css('border-color', 'red');
@@ -27,9 +30,11 @@
             }
 
             if (proceed) {
-                post_data = {'name': name, 'link': link, 'host': host};
+                post_data = {'name': name, 'link': link, 'host': host, 'challengeField': challengeField, 'responseField': responseField};
 
-                $.post('submit.php', post_data, function (response) {
+                /*$.post('submit.php', post_data, function (response) {
+                    response.preventDefault();
+                    alert("posted");
                     if (response.type == 'error') {
                         output = '<div class="error">' + response.text + '</div>';
                     } else {
@@ -40,7 +45,31 @@
 
                     $("#result").hide().html(output).slideDown();
 
-                }, 'json');
+                }, 'json');*/
+
+                $.ajax ({
+                    type: 'POST',
+                    url: 'submit.php',
+                    data: post_data,
+                    async: false,
+                    success: function(response) {
+                        if (response.type == 'error') {
+                            output = '<div class="error">' + response.text + '</div>';
+                        } else {
+                            output = '<div class="success">' + response.text + '</div>';
+
+                            $('#link_form input').val('');
+                        }
+
+                        $("#result").hide().html(output).slideDown();
+
+                    },
+                    error: function (xhr, status, errorThrown) {
+                        console.log(xhr);
+                    },
+                    dataType:"json"
+
+                });
 
 
             }
@@ -204,12 +233,13 @@
         <input type="text" name="host" id="host" placeholder="Host website name" autocomplete="off">
     </label>
 
-    <label>
-        <?php
+    <?php
         require_once('recaptchalib.php');
-        $publickey = "6LfR2vcSAAAAAKqEd2gA3Kc9m2vS-bINp9px0vp8"; // you got this from the signup page
+        $publickey = "6LfR2vcSAAAAAKqEd2gA3Kc9m2vS-bINp9px0vp8";
         echo recaptcha_get_html($publickey);
-        ?>
+    ?>
+
+    <label>
         <span>&nbsp;</span>
         <button class="submit_btn" id="submit">Submit</button>
     </label>

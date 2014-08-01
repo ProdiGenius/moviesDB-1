@@ -137,18 +137,20 @@
 
 
             //PRODUCTION !!
-			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+			//$table_list = "SHOW TABLES FROM `yossil01_movies` ";
             //STAGING !!
-            //$table_list = "SHOW TABLES FROM `movies` ";
+            $table_list = "SHOW TABLES FROM `movies` ";
 
             $counter = 0;
 
 			$rs = mysqli_query($conn, $table_list);
-			
-			while ($row = mysqli_fetch_array($rs))
+
+			while ($counter < 10 && $row = mysqli_fetch_array($rs))
 			{
                 echo urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>");
+                $counter++;
 			}
+
 		?>
 		</ul>
 		<ul style="margin: 0px 30px 0px 30px;">

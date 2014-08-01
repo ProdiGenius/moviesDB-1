@@ -79,6 +79,7 @@
                         <th>Link</th>
                         <th>Quality</th>
                         <th>Submitted</th>
+                        <th>Votes</th>
                     </tr>
                     </thead>
                     <!-- Table Header -->
@@ -108,7 +109,22 @@
                         <td><a href=' . addhttp($row["link"]) . '>' . $row["link"] . '</a> </td>
                         <td>DVD</td>
                         <td>' . $row["created"] . '</td>
+                        <td>
 
+                        <figure class="kudo kudoable" data-id="1">
+                            <a class="kudobject">
+                                <div class="opening">
+                                    <div class="circle">&nbsp;</div>
+                                </div>
+                            </a>
+
+                            <a href="#kudo" class="count">
+                                <span class="num">0</span>
+                                <span class="txt">Kudos</span>
+                            </a>
+                        </figure>
+
+                        </td>
                     </tr>');
 
                 }

@@ -60,7 +60,7 @@ if ($_POST) {
 
             //$retval = mysqli_query($conn, $sql);
 
-            $retval = mysqli_query($link, $sql);
+            $retval = mysqli_query($link, $sql) or die("query failed.");
 
             if (mysqli_num_rows($retval)) {
 

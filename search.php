@@ -14,7 +14,8 @@ $search_string = str_replace(" ", "+", $search_string);
 
 if (strlen($search_string) >= 1 && $search_string !== '')
 {
-    $sql = "SHOW TABLES FROM `movies` LIKE '%$search_string'";
+    //$sql = "SHOW TABLES FROM `movies` LIKE '%$search_string'";
+    $sql = "SHOW TABLES FROM `yossil01_movies` LIKE '%$search_string'";
 
     $query = mysqli_query($conn,$sql) or die(mysqli_error($conn));
     $count = mysqli_num_rows($query);

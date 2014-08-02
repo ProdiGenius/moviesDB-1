@@ -170,6 +170,8 @@
                 $counter++;
 			}
 
+            mysqli_close($link);
+
 		?>
 		</ul>
 		<ul style="margin: 0px 30px 0px 30px;">

@@ -58,23 +58,28 @@ if ($_POST) {
         if ($details->Response == 'True') {
             $sql = "SHOW TABLES LIKE '$name'";
 
-            $retval = mysqli_query($conn, $sql);
+            //$retval = mysqli_query($conn, $sql);
+
+            $retval = mysqli_query($link, $sql);
 
             if (mysqli_num_rows($retval)) {
 
                 $sql = "INSERT INTO `$name` (link, host, created) VALUES ('$link', '$host', NOW())";
 
-                $retval = mysqli_query($conn, $sql);
+                //$retval = mysqli_query($conn, $sql);
+                $retval = mysqli_query($link, $sql);
+
 
                 if (!$retval) {
                     $output = json_encode(array('type' => 'error', 'text' => 'Could not enter data.'));
                     die ('Could not enter data: ' . mysql_error());
                 }
 
+                //mysqli_close($conn);
+                mysqli_close($link);
+
                 $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
                 die ($output);
-
-                mysqli_close($conn);
 
             } else {
 
@@ -90,10 +95,15 @@ if ($_POST) {
 							(link, created, host)
 							VALUES ('$link','$host', NOW())";
 
-                mysqli_query($conn, $sql_create) or die (mysql_error());
+/*                mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());
 
-                mysqli_close($conn);
+                mysqli_close($conn);*/
+
+                mysqli_query($link, $sql_create) or die (mysql_error());
+                mysqli_query($link, $sql_insert) or die (mysql_error());
+
+                mysqli_close($link);
 
                 $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
                 die ($output);

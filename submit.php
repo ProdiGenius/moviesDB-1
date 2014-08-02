@@ -1,17 +1,13 @@
 <?php
 
-$server = "us-cdbr-iron-east-01.cleardb.net";
-$username = "bd2198a363403a";
-$password = "e72fa6de";
-$db = "heroku_d78f3829bda1f61";
-
-$link = mysqli_connect($server, $username, $password, $db) or die("Unable to connect to DB.");
-
-mysqli_select_db($link, $db) or die("Unable to select db.");
+include("datalogin.php");
 
 require_once('recaptchalib.php');
 
+//prod
 //$privatekey = "6LfR2vcSAAAAAAqLhylORlU0GPvPs1meLHQtvkg5";
+
+//staging (heroku)
 $privatekey = "6LeO7PcSAAAAAPcPk4ipRQThEznjOkyv1F_LEvVg";
 
 
@@ -82,7 +78,7 @@ if ($_POST) {
 
                 if (!$retval) {
                     $output = json_encode(array('type' => 'error', 'text' => 'Could not enter data.'));
-                    die ($output . mysqli_error($link));
+                    die ($output . mysqli_error($conn));
                 }
 
                 //mysqli_close($conn);
@@ -90,7 +86,7 @@ if ($_POST) {
                 $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
                 die ($output);
 
-                mysqli_close($link);
+                mysqli_close($conn);
 
             } else {
 
@@ -104,17 +100,12 @@ if ($_POST) {
 
                 $sql_insert = "INSERT INTO `$name`
 							(link, created, host)
-							VALUES ('$link','$host', NOW())";
+							VALUES ('$conn','$host', NOW())";
 
-/*              mysqli_query($conn, $sql_create) or die (mysql_error());
+                mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());
 
-                mysqli_close($conn);*/
-
-                mysqli_query($link, $sql_create) or die (mysqli_error($link));
-                mysqli_query($link, $sql_insert) or die (mysqli_error($link));
-
-                mysqli_close($link);
+                mysqli_close($conn);
 
                 $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
                 die ($output);

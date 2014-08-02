@@ -161,8 +161,7 @@
 
             $counter = 0;
 
-			//$rs = mysqli_query($conn, $table_list);
-            $rs = mysqli_query($link, $table_list);
+            $rs = mysqli_query($conn, $table_list);
 
 			while ($counter < 10 && $row = mysqli_fetch_array($rs))
 			{

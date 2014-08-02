@@ -105,8 +105,7 @@
 
                 $sql = "SELECT link, created FROM `$name`";
 
-                //$retval = mysqli_query($conn, $sql);
-                $retval = mysqli_query($link, $sql);
+                $retval = mysqli_query($conn, $sql);
 
                 if (!$retval) {
                     die ("could not get data.");

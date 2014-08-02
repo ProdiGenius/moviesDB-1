@@ -74,6 +74,9 @@ if ($_POST) {
 
             if (mysqli_num_rows($retval)) {
 
+                $output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
+                die ($output . mysqli_error($link));
+
                 $sql = "INSERT INTO `$name` (`link`, `host`, `created`) VALUES ('$link', '$host', NOW())";
 
                 //$retval = mysqli_query($conn, $sql);

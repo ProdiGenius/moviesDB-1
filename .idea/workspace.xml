@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="datalogin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="320" selection-end="320" vertical-scroll-proportion="0.25531915" vertical-offset="0" max-vertical-offset="705">
+            <state line="12" column="43" selection-start="320" selection-end="320" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="0" selection-start="6692" selection-end="6692" vertical-scroll-proportion="-17.5" vertical-offset="2160" max-vertical-offset="14310">
+            <state line="168" column="0" selection-start="6520" selection-end="6520" vertical-scroll-proportion="0.5202312" vertical-offset="2160" max-vertical-offset="14295">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -136,9 +136,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/submit.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/datalogin.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -500,9 +500,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/movie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="-11.25" vertical-offset="1365" max-vertical-offset="3000">
+          <folding>
+            <marker date="1406993095000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="320" selection-end="320" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="0" selection-start="6692" selection-end="6692" vertical-scroll-proportion="-17.5" vertical-offset="2160" max-vertical-offset="14310">
+        <state line="168" column="0" selection-start="6520" selection-end="6520" vertical-scroll-proportion="0.5202312" vertical-offset="2160" max-vertical-offset="14295">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -525,22 +541,6 @@
             <element signature="n#style#0;n#div#1;n#ul#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#1;n#div#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="-11.25" vertical-offset="1365" max-vertical-offset="3000">
-          <folding>
-            <marker date="1406993095000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="320" selection-end="320" vertical-scroll-proportion="0.25531915" vertical-offset="0" max-vertical-offset="705">
-          <folding />
         </state>
       </provider>
     </entry>

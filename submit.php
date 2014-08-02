@@ -4,7 +4,8 @@ include 'datalogin.php';
 
 require_once('recaptchalib.php');
 
-$privatekey = "6LfR2vcSAAAAAAqLhylORlU0GPvPs1meLHQtvkg5";
+//$privatekey = "6LfR2vcSAAAAAAqLhylORlU0GPvPs1meLHQtvkg5";
+$privatekey = "6LeO7PcSAAAAAPcPk4ipRQThEznjOkyv1F_LEvVg";
 
 
 if ($_POST) {

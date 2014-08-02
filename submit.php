@@ -63,7 +63,7 @@ if ($_POST) {
         $details = json_decode($json);
 
         if ($details->Response == 'True') {
-            $sql = "SHOW TABLES LIKE '$name'";
+            $sql = "SHOW TABLES FROM `heroku_d78f3829bda1f61` LIKE '$name'";
 
             //$retval = mysqli_query($conn, $sql);
 

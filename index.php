@@ -151,9 +151,13 @@
 
 
             //PRODUCTION !!
-			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
-            //STAGING !!
+			//$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+
+            //DEV!!
             //$table_list = "SHOW TABLES FROM `movies` ";
+
+            //STAGING !!
+            $table_list = "SHOW TABLES FROM `heroku_d78f3829bda1f61` ";
 
             $counter = 0;
 

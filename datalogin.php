@@ -7,8 +7,7 @@ $dbpass = "";
 $dbname = "movies";*/
 
 //!!!-STAGING ENVIRONMENT-!!!
-$url=parse_url(getenv("mysql://bd2198a363403a:e72fa6de@us-cdbr-iron-east-01.cleardb.net/heroku_d78f3829bda1f61?reconnect=true
-"));
+//$url=parse_url(getenv("mysql://bd2198a363403a:e72fa6de@us-cdbr-iron-east-01.cleardb.net/heroku_d78f3829bda1f61?reconnect=true"));
 
 $server = "us-cdbr-iron-east-01.cleardb.net";
 $username = "bd2198a363403a";

@@ -1,6 +1,13 @@
 <?php
 
-include 'datalogin.php';
+$server = "us-cdbr-iron-east-01.cleardb.net";
+$username = "bd2198a363403a";
+$password = "e72fa6de";
+$db = "heroku_d78f3829bda1f61";
+
+$link = mysqli_connect($server, $username, $password, $db) or die("Unable to connect to DB.");
+
+mysqli_select_db($link, $db) or die("Unable to select db.");
 
 require_once('recaptchalib.php');
 
@@ -95,7 +102,7 @@ if ($_POST) {
 							(link, created, host)
 							VALUES ('$link','$host', NOW())";
 
-/*                mysqli_query($conn, $sql_create) or die (mysql_error());
+/*              mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());
 
                 mysqli_close($conn);*/

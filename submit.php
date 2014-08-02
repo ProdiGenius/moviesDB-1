@@ -65,8 +65,8 @@ if ($_POST) {
         if ($details->Response == 'True') {
             $sql = "SHOW TABLES FROM `heroku_d78f3829bda1f61` LIKE '$name'";
 
-            $output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
-            die ($output . mysqli_error($link));
+            /*$output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
+            die ($output . mysqli_error($link));*/
 
             //$retval = mysqli_query($conn, $sql);
 

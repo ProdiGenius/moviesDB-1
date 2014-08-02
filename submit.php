@@ -65,6 +65,9 @@ if ($_POST) {
         if ($details->Response == 'True') {
             $sql = "SHOW TABLES FROM `heroku_d78f3829bda1f61` LIKE '$name'";
 
+            $output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
+            die ($output . mysqli_error($link));
+
             //$retval = mysqli_query($conn, $sql);
 
             $retval = mysqli_query($link, $sql);
@@ -83,10 +86,11 @@ if ($_POST) {
                 }
 
                 //mysqli_close($conn);
-                mysqli_close($link);
 
                 $output = json_encode(array('type' => 'message', 'text' => 'Link entered successfully!'));
                 die ($output);
+
+                mysqli_close($link);
 
             } else {
 

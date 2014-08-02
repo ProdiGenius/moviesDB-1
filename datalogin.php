@@ -10,10 +10,10 @@ $dbname = "movies";*/
 $url=parse_url(getenv("mysql://bd2198a363403a:e72fa6de@us-cdbr-iron-east-01.cleardb.net/heroku_d78f3829bda1f61?reconnect=true
 "));
 
-$server = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$db = substr($url["path"],1);
+$server = "us-cdbr-iron-east-01.cleardb.net/";
+$username = "bd2198a363403a";
+$password = "e72fa6de";
+$db = "heroku_d78f3829bda1f61";
 
 $link = mysqli_connect($server, $username, $password, $db) or die("Unable to connect to DB.");
 

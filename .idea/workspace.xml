@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="datalogin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="555" selection-end="555" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+            <state line="19" column="61" selection-start="536" selection-end="536" vertical-scroll-proportion="0.40425533" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="0.38297874" vertical-offset="1365" max-vertical-offset="3000">
+            <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="-11.25" vertical-offset="1365" max-vertical-offset="3000">
               <folding>
                 <marker date="1406993095000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
               </folding>
@@ -135,10 +135,10 @@
         <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/search.php" />
-        <option value="$PROJECT_DIR$/datalogin.php" />
         <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/movie.php" />
+        <option value="$PROJECT_DIR$/datalogin.php" />
       </list>
     </option>
   </component>
@@ -500,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="555" selection-end="555" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="172" column="0" selection-start="6692" selection-end="6692" vertical-scroll-proportion="-17.5" vertical-offset="2160" max-vertical-offset="14310">
@@ -537,10 +530,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="0.38297874" vertical-offset="1365" max-vertical-offset="3000">
+        <state line="109" column="0" selection-start="3342" selection-end="3342" vertical-scroll-proportion="-11.25" vertical-offset="1365" max-vertical-offset="3000">
           <folding>
             <marker date="1406993095000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="61" selection-start="536" selection-end="536" vertical-scroll-proportion="0.40425533" vertical-offset="0" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>

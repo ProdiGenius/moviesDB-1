@@ -1,23 +1,70 @@
 @charset "utf-8";
+/******************************************************************
+This is the CSS Reset
+******************************************************************/
+
 * {
-	margin: 0px;
-	padding: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+    -webkit-font-smoothing: antialiased;
 }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
 /* TEMP */
 
+#navContainer {
+    margin: 0 auto;
+    width: 1140px;
+    height: 40px;
+    z-index: 7;
+    background-color: #36a2d2;
+    font-family:Verdana;
+    font-size: 15px;
+}
+
 #Home{
-	margin-left:auto;
-	margin-right:auto;
+    display: inline-block;
 	height:40px;
 	width:90px;
 	z-index:7;
-	font-family:Verdana;
 	text-align:center;
 	font-weight:bold;
-	font-size:15px;
 	padding-top:17px;
+    font-weight: normal;
 }
-#Home a{
+
+#navContainer p {
+    color: white;
+}
+
+#navContainer a{
 	color:white;
 }
 #Home:hover a{
@@ -40,7 +87,7 @@
     height: 55px;
     padding: 0px;
 	top:0px;
-	background-color: #E1A304;
+	background-color: #36a2d2;
     opacity: 1;
     background-image: none;
 }

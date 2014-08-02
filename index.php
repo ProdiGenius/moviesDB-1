@@ -3,12 +3,11 @@
 <head>
 <meta name="title" content="Watch Movies and TV Shows Online for Free - Watch it Free! - Putlocker, Sockshare, novamov, firedrive"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script src="jquery-ui-1.8.13.custom.min.js"></script>
-<script src="jquery.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
 <script type='text/javascript' src="js/jssor.slider.mini.js"></script>
 <title> Watch Movies and TV Shows Online for Free </title>
 <link rel='stylesheet' type ='text/css' href='css/style.css' />
+<link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
 </head>
 
 <body>
@@ -23,7 +22,22 @@
 ?>
 
 <div id="header">
-	<div id="Home"><a href="http://www.watchitfree.me" style="text-decoration:none;">HOME</a></div>
+
+    <div id="navContainer">
+
+        <div id="Home"><a href="http://www.watchitfree.me" style="text-decoration:none;">HOME</a></div>
+
+        <div id="Home"><a href="new_link.php" style="text-decoration:none;">LINKS</a></div>
+
+        <div id="search">
+            <div class="icon">
+                <p>SEARCH:</p>
+            </div>
+            <input id="search" type="text" autocomplete="off">
+            <ul id="results"></ul>
+        </div>
+    </div>
+
 </div>
 
 <div id="page-content">
@@ -137,9 +151,9 @@
 
 
             //PRODUCTION !!
-			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+			//$table_list = "SHOW TABLES FROM `yossil01_movies` ";
             //STAGING !!
-            //$table_list = "SHOW TABLES FROM `movies` ";
+            $table_list = "SHOW TABLES FROM `movies` ";
 
             $counter = 0;
 
@@ -924,5 +938,6 @@
 	});
 </script>
 <script language="javascript" type="text/javascript" src="js/link_target.js"></script>
+<script src="js/search.js"></script>
 </body>
 </html>

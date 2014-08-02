@@ -11,6 +11,7 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
     <link rel='stylesheet' type='text/css' href='css/movie_styles.css'/>
+    <link rel='stylesheet' type='text/css' href='css/search.css'/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
 </head>
@@ -18,7 +19,22 @@
 <body>
 
 <div id="header">
-    <div id="Home"><a href="http://www.watchitfree.me" style="text-decoration:none;">HOME</a></div>
+
+    <div id="navContainer">
+
+        <div id="Home"><a href="http://www.watchitfree.me" style="text-decoration:none;">HOME</a></div>
+
+        <div id="Home"><a href="new_link.php" style="text-decoration:none;">LINKS</a></div>
+
+        <div id="search">
+            <div class="icon">
+                <p>SEARCH:</p>
+            </div>
+            <input id="search" type="text" autocomplete="off">
+            <ul id="results"></ul>
+        </div>
+    </div>
+
 </div>
 <div id="page-content">
     <div id = "container">

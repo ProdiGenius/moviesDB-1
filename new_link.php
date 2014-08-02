@@ -32,21 +32,6 @@
             if (proceed) {
                 post_data = {'name': name, 'link': link, 'host': host, 'challengeField': challengeField, 'responseField': responseField};
 
-                /*$.post('submit.php', post_data, function (response) {
-                    response.preventDefault();
-                    alert("posted");
-                    if (response.type == 'error') {
-                        output = '<div class="error">' + response.text + '</div>';
-                    } else {
-                        output = '<div class="success">' + response.text + '</div>';
-
-                        $('#link_form input').val('');
-                    }
-
-                    $("#result").hide().html(output).slideDown();
-
-                }, 'json');*/
-
                 $.ajax ({
                     type: 'POST',
                     url: 'submit.php',

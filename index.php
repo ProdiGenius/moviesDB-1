@@ -151,9 +151,9 @@
 
 
             //PRODUCTION !!
-			//$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+			$table_list = "SHOW TABLES FROM `yossil01_movies` ";
             //STAGING !!
-            $table_list = "SHOW TABLES FROM `movies` ";
+            //$table_list = "SHOW TABLES FROM `movies` ";
 
             $counter = 0;
 

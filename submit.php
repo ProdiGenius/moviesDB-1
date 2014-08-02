@@ -72,7 +72,7 @@ if ($_POST) {
 
                 if (!$retval) {
                     $output = json_encode(array('type' => 'error', 'text' => 'Could not enter data.'));
-                    die ('Could not enter data: ' . mysql_error());
+                    die ($output . mysql_error());
                 }
 
                 //mysqli_close($conn);

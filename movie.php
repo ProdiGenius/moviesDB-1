@@ -190,4 +190,5 @@
         </div>
         <body>
         <script language="javascript" type="text/javascript" src="js/link_target.js"></script>
+        <script src="js/search.js"></script>
 </html>

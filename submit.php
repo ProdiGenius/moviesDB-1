@@ -64,16 +64,14 @@ if ($_POST) {
             /*$output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
             die ($output . mysqli_error($link));*/
 
-            //$retval = mysqli_query($conn, $sql);
+            $retval = mysqli_query($conn, $sql);
 
-            $retval = mysql_query($sql);
 
             if (mysqli_num_rows($retval)) {
 
                 $sql = "INSERT INTO `$name` (`link`, `host`, `created`) VALUES ('$link', '$host', NOW())";
 
-                //$retval = mysqli_query($conn, $sql);
-                $retval = mysql_query($sql);
+                $retval = mysqli_query($conn, $sql);
 
 
                 if (!$retval) {

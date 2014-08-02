@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datalogin.php" afterPath="$PROJECT_DIR$/datalogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
     </list>
     <ignored path="movies.iws" />
@@ -99,10 +96,10 @@
       <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="86" selection-start="2355" selection-end="2360" vertical-scroll-proportion="0.33333334" vertical-offset="858" max-vertical-offset="1905">
+            <state line="82" column="0" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.70520234" vertical-offset="742" max-vertical-offset="1875">
               <folding>
-                <marker date="1407014093000" expanded="true" signature="2298:2378" placeholder="INSERT INTO ..." />
-                <marker date="1407014093000" expanded="true" signature="3159:3246" placeholder="INSERT INTO ..." />
+                <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
+                <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -371,8 +368,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="43" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1710">
           <folding>
-            <marker date="1407014093000" expanded="true" signature="2298:2378" placeholder="INSERT INTO ..." />
-            <marker date="1407014093000" expanded="true" signature="3159:3246" placeholder="INSERT INTO ..." />
+            <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
+            <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -539,10 +536,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="86" selection-start="2355" selection-end="2360" vertical-scroll-proportion="0.33333334" vertical-offset="858" max-vertical-offset="1905">
+        <state line="82" column="0" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.70520234" vertical-offset="742" max-vertical-offset="1875">
           <folding>
-            <marker date="1407014093000" expanded="true" signature="2298:2378" placeholder="INSERT INTO ..." />
-            <marker date="1407014093000" expanded="true" signature="3159:3246" placeholder="INSERT INTO ..." />
+            <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
+            <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

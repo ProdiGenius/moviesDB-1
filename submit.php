@@ -79,7 +79,7 @@ if ($_POST) {
 
                 if (!$retval) {
                     $output = json_encode(array('type' => 'error', 'text' => 'Could not enter data.'));
-                    die ($output . mysql_error());
+                    die ($output . mysqli_error($link));
                 }
 
                 //mysqli_close($conn);
@@ -107,8 +107,8 @@ if ($_POST) {
 
                 mysqli_close($conn);*/
 
-                mysqli_query($link, $sql_create) or die (mysql_error());
-                mysqli_query($link, $sql_insert) or die (mysql_error());
+                mysqli_query($link, $sql_create) or die (mysqli_error($link));
+                mysqli_query($link, $sql_insert) or die (mysqli_error($link));
 
                 mysqli_close($link);
 

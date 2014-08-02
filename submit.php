@@ -69,7 +69,7 @@ if ($_POST) {
 
             if (mysqli_num_rows($retval)) {
 
-                $sql = "INSERT INTO `$name` (`link`, `host`, `created`) VALUES ('$link', '$host', NOW())";
+                $sql = "INSERT INTO `$name` (link, host, created) VALUES ('$link', '$host', NOW())";
 
                 $retval = mysqli_query($conn, $sql);
 

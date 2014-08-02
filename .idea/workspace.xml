@@ -67,7 +67,7 @@
       <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="16" selection-start="3250" selection-end="3250" vertical-scroll-proportion="-4.22" vertical-offset="1394" max-vertical-offset="2985">
+            <state line="128" column="0" selection-start="3982" selection-end="3982" vertical-scroll-proportion="-9.02" vertical-offset="1469" max-vertical-offset="2985">
               <folding>
                 <marker date="1407013995000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
               </folding>
@@ -96,10 +96,10 @@
       <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.70520234" vertical-offset="742" max-vertical-offset="1875">
+            <state line="77" column="69" selection-start="2489" selection-end="2489" vertical-scroll-proportion="0.5495495" vertical-offset="789" max-vertical-offset="1875">
               <folding>
-                <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
-                <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
+                <marker date="1407015090000" expanded="true" signature="2255:2329" placeholder="INSERT INTO ..." />
+                <marker date="1407015090000" expanded="true" signature="3063:3150" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -368,8 +368,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="43" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1710">
           <folding>
-            <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
-            <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
+            <marker date="1407015090000" expanded="true" signature="2255:2329" placeholder="INSERT INTO ..." />
+            <marker date="1407015090000" expanded="true" signature="3063:3150" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -518,15 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="16" selection-start="3250" selection-end="3250" vertical-scroll-proportion="-4.22" vertical-offset="1394" max-vertical-offset="2985">
-          <folding>
-            <marker date="1407013995000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="22" selection-start="1958" selection-end="1958" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="3645">
@@ -534,12 +525,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/movie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="3982" selection-end="3982" vertical-scroll-proportion="-9.02" vertical-offset="1469" max-vertical-offset="2985">
+          <folding>
+            <marker date="1407013995000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.70520234" vertical-offset="742" max-vertical-offset="1875">
+        <state line="77" column="69" selection-start="2489" selection-end="2489" vertical-scroll-proportion="0.5495495" vertical-offset="789" max-vertical-offset="1875">
           <folding>
-            <marker date="1407014528000" expanded="true" signature="2255:2335" placeholder="INSERT INTO ..." />
-            <marker date="1407014528000" expanded="true" signature="3069:3156" placeholder="INSERT INTO ..." />
+            <marker date="1407015090000" expanded="true" signature="2255:2329" placeholder="INSERT INTO ..." />
+            <marker date="1407015090000" expanded="true" signature="3063:3150" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

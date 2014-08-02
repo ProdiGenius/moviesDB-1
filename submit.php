@@ -70,17 +70,14 @@ if ($_POST) {
 
             //$retval = mysqli_query($conn, $sql);
 
-            $retval = mysqli_query($link, $sql);
+            $retval = mysql_query($sql);
 
             if (mysqli_num_rows($retval)) {
-
-                $output = json_encode(array('type' => 'message', 'text' => 'About to insert.'));
-                die ($output . mysqli_error($link));
 
                 $sql = "INSERT INTO `$name` (`link`, `host`, `created`) VALUES ('$link', '$host', NOW())";
 
                 //$retval = mysqli_query($conn, $sql);
-                $retval = mysqli_query($link, $sql);
+                $retval = mysql_query($sql);
 
 
                 if (!$retval) {

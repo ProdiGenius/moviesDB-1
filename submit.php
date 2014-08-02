@@ -69,7 +69,7 @@ if ($_POST) {
 
             if (mysqli_num_rows($retval)) {
 
-                $sql = "INSERT INTO `$name` (link, host, created) VALUES ('$link', '$host', NOW())";
+                $sql = "INSERT INTO `$name` (link, created) VALUES ('$link', NOW())";
 
                 $retval = mysqli_query($conn, $sql);
 
@@ -92,13 +92,12 @@ if ($_POST) {
 					(id INT NOT NULL AUTO_INCREMENT,
 					PRIMARY KEY (id),
 					link VARCHAR(500),
-					host VARCHAR (30),
 					created DATETIME)
 					";
 
                 $sql_insert = "INSERT INTO `$name`
-							(link, created, host)
-							VALUES ('$conn','$host', NOW())";
+							(link, created)
+							VALUES ('$conn', NOW())";
 
                 mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());

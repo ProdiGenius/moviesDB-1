@@ -165,6 +165,7 @@
 
 			while ($counter < 10 && $row = mysqli_fetch_array($rs))
 			{
+                $row[0] = ucwords($row[0]);
                 echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
                 $counter++;
 			}

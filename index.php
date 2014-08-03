@@ -3,11 +3,11 @@
 <head>
 <meta name="title" content="Watch Movies and TV Shows Online for Free - Watch it Free! - Putlocker, Sockshare, novamov, firedrive"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script src="js/jquery-1.11.1.min.js"></script>
-<script type='text/javascript' src="js/jssor.slider.mini.js"></script>
 <title> Watch Movies and TV Shows Online for Free </title>
 <link rel='stylesheet' type ='text/css' href='css/style.css' />
 <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type='text/javascript' src="js/jssor.slider.mini.js"></script>
 <meta name="google-site-verification" content="CVaGDgXc7zS_xNMrxyha-k1VAzS86M6eksKYpHxEiXk" />
 </head>
 

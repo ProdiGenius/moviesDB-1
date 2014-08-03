@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="24" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.4874816" vertical-offset="1514" max-vertical-offset="3015">
+            <state line="123" column="24" selection-start="3748" selection-end="3748" vertical-scroll-proportion="-6.62" vertical-offset="1514" max-vertical-offset="3015">
               <folding>
                 <marker date="1407026406000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
               </folding>
@@ -103,13 +102,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="0" selection-start="3285" selection-end="3285" vertical-scroll-proportion="-16.958334" vertical-offset="1168" max-vertical-offset="1860">
+            <state line="97" column="50" selection-start="3043" selection-end="3043" vertical-scroll-proportion="0.41473988" vertical-offset="1168" max-vertical-offset="1860">
               <folding>
-                <marker date="1407015562000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-                <marker date="1407015562000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
+                <marker date="1407026629000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
+                <marker date="1407026629000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -145,10 +144,10 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/datalogin.php" />
-        <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/movie.php" />
+        <option value="$PROJECT_DIR$/submit.php" />
       </list>
     </option>
   </component>
@@ -392,8 +391,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="43" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1710">
           <folding>
-            <marker date="1407015562000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-            <marker date="1407015562000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
+            <marker date="1407026629000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
+            <marker date="1407026629000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -500,23 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="1958" selection-end="1958" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="3645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3285" selection-end="3285" vertical-scroll-proportion="-16.958334" vertical-offset="1168" max-vertical-offset="1860">
-          <folding>
-            <marker date="1407015562000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-            <marker date="1407015562000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
@@ -561,9 +543,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="24" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.4874816" vertical-offset="1514" max-vertical-offset="3015">
+        <state line="123" column="24" selection-start="3748" selection-end="3748" vertical-scroll-proportion="-6.62" vertical-offset="1514" max-vertical-offset="3015">
           <folding>
             <marker date="1407026406000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1958" selection-end="1958" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="3645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="50" selection-start="3043" selection-end="3043" vertical-scroll-proportion="0.41473988" vertical-offset="1168" max-vertical-offset="1860">
+          <folding>
+            <marker date="1407026629000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
+            <marker date="1407026629000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

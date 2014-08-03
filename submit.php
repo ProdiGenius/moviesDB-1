@@ -97,7 +97,7 @@ if ($_POST) {
 
                 $sql_insert = "INSERT INTO `$name`
 							(link, created)
-							VALUES ('$conn', NOW())";
+							VALUES ('$link', NOW())";
 
                 mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());

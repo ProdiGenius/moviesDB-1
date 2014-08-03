@@ -119,7 +119,7 @@
                     return $url;
                 }
 
-                while ($row = mysqli_fetch_array($retval, MYSQL_ASSOC)) {
+                while ($row = mysqli_fetch_assoc($retval)) {
                     echo('
                     <tr>
                         <td><a href=' . addhttp($row["link"]) . '>' . $row["link"] . '</a> </td>

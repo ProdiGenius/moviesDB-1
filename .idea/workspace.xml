@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +87,7 @@
       <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.23404256" vertical-offset="165" max-vertical-offset="930">
+            <state line="18" column="77" selection-start="593" selection-end="593" vertical-scroll-proportion="0.14893617" vertical-offset="165" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -563,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.23404256" vertical-offset="165" max-vertical-offset="930">
+        <state line="18" column="77" selection-start="593" selection-end="593" vertical-scroll-proportion="0.14893617" vertical-offset="165" max-vertical-offset="930">
           <folding />
         </state>
       </provider>

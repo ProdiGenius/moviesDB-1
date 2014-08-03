@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dc6c772ff63ad41273ee83ca6ce42084.txt" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +76,7 @@
       <file leaf-file-name="movie.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="107" selection-start="637" selection-end="637" vertical-scroll-proportion="0.28718704" vertical-offset="0" max-vertical-offset="3015">
+            <state line="28" column="2" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6185567" vertical-offset="0" max-vertical-offset="3015">
               <folding>
                 <marker date="1407029919000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
               </folding>
@@ -599,9 +599,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dc6c772ff63ad41273ee83ca6ce42084.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="107" selection-start="637" selection-end="637" vertical-scroll-proportion="0.28718704" vertical-offset="0" max-vertical-offset="3015">
+        <state line="28" column="2" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6185567" vertical-offset="0" max-vertical-offset="3015">
           <folding>
             <marker date="1407029919000" expanded="true" signature="3197:3230" placeholder="SELECT link,..." />
           </folding>

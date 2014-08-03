@@ -8,11 +8,11 @@
     <meta name="og:title" content=""/>
     <meta name="og:description" content=""/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script src="js/jquery-1.11.1.min.js"></script>
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
     <link rel='stylesheet' type='text/css' href='css/movie_styles.css'/>
     <link rel='stylesheet' type='text/css' href='css/search.css'/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
 
 </head>
 

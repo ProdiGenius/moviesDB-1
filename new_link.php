@@ -133,8 +133,8 @@
 
     <?php
         require_once('recaptchalib.php');
-        //$publickey = "6LfR2vcSAAAAAKqEd2gA3Kc9m2vS-bINp9px0vp8";
-        $publickey = "6LeO7PcSAAAAAMOPlpYG8vUl0RFE612VYiTr-G5L";
+        $publickey = "6LfR2vcSAAAAAKqEd2gA3Kc9m2vS-bINp9px0vp8";
+        //$publickey = "6LeO7PcSAAAAAMOPlpYG8vUl0RFE612VYiTr-G5L";
 
         echo recaptcha_get_html($publickey);
     ?>

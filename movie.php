@@ -161,6 +161,8 @@
             echo "Movie does not exist.";
         }
 
+        mysqli_close($conn);
+
         ?>
 
         </div>

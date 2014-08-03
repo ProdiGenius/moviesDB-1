@@ -8,6 +8,7 @@
 <title> Watch Movies and TV Shows Online for Free </title>
 <link rel='stylesheet' type ='text/css' href='css/style.css' />
 <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
+<meta name="google-site-verification" content="CVaGDgXc7zS_xNMrxyha-k1VAzS86M6eksKYpHxEiXk" />
 </head>
 
 <body>

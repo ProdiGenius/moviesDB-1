@@ -108,8 +108,8 @@
 
         #movie_select {
             display: block;
-            width: 500px;
-            height: 500px;
+            width: 550px;
+            height: 300px;
             margin: 0 auto;
             background-color: cornflowerblue;
         }
@@ -129,17 +129,16 @@
 
 
 <div id="movie_select">
-
+    <label for= "name">
+        <span>Movie Name</span>
+        <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
+    </label>
 </div>
 
 
 <fieldset id="link_form">
     <legend>Submit a new Link</legend>
     <div id="result"></div>
-    <label for= "name">
-        <span>Movie Name</span>
-        <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
-    </label>
 
     <label for = "link">
         <span>Movie Link</span>

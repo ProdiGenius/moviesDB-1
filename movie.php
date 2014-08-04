@@ -65,7 +65,7 @@
                 <div id="thumbnail-box">
 
                 <a href="" title="' . $details->Title . ' (2014)">
-			    <img src= http://img.omdbapi.com/?i='.$imdb.'&apikey=dcff2d3d/></a>
+			    <img src= http://img.omdbapi.com/?i='.$imdb.'&apikey=dcff2d3d></a>
 
 			    </div>
 

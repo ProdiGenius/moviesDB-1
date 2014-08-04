@@ -76,12 +76,12 @@
       <file leaf-file-name="movie.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="22" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.34042552" vertical-offset="795" max-vertical-offset="3195">
+            <state line="67" column="77" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.29787233" vertical-offset="795" max-vertical-offset="3195">
               <folding>
-                <marker date="1407184710000" expanded="true" signature="3268:3310" placeholder="SELECT link,..." />
-                <marker date="1407184710000" expanded="true" signature="5038:6182" placeholder="..." />
-                <marker date="1407184710000" expanded="true" signature="5072:6082" placeholder="..." />
-                <marker date="1407184710000" expanded="true" signature="6098:6182" placeholder="..." />
+                <marker date="1407184878000" expanded="true" signature="3267:3309" placeholder="SELECT link,..." />
+                <marker date="1407184878000" expanded="true" signature="5037:6181" placeholder="..." />
+                <marker date="1407184878000" expanded="true" signature="5071:6081" placeholder="..." />
+                <marker date="1407184878000" expanded="true" signature="6097:6181" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -405,10 +405,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="32" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2730">
           <folding>
-            <marker date="1407184710000" expanded="true" signature="3268:3310" placeholder="SELECT link,..." />
-            <marker date="1407184710000" expanded="true" signature="5038:6182" placeholder="..." />
-            <marker date="1407184710000" expanded="true" signature="5072:6082" placeholder="..." />
-            <marker date="1407184710000" expanded="true" signature="6098:6182" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="3267:3309" placeholder="SELECT link,..." />
+            <marker date="1407184878000" expanded="true" signature="5037:6181" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="5071:6081" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="6097:6181" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -641,12 +641,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="22" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.34042552" vertical-offset="795" max-vertical-offset="3195">
+        <state line="67" column="77" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.29787233" vertical-offset="795" max-vertical-offset="3195">
           <folding>
-            <marker date="1407184710000" expanded="true" signature="3268:3310" placeholder="SELECT link,..." />
-            <marker date="1407184710000" expanded="true" signature="5038:6182" placeholder="..." />
-            <marker date="1407184710000" expanded="true" signature="5072:6082" placeholder="..." />
-            <marker date="1407184710000" expanded="true" signature="6098:6182" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="3267:3309" placeholder="SELECT link,..." />
+            <marker date="1407184878000" expanded="true" signature="5037:6181" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="5071:6081" placeholder="..." />
+            <marker date="1407184878000" expanded="true" signature="6097:6181" placeholder="..." />
           </folding>
         </state>
       </provider>

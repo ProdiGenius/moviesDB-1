@@ -29,7 +29,9 @@ if (strlen($search_string) >= 1 && $search_string !== '')
 
             $search_string = str_replace(" ", "+", $search_string);
 
-            if ($search_string == $table_name)
+            if (strpos($table_name, $search_string) !== false)
+
+//            if ($search_string == $table_name)
             {
 
                 $search_string = str_replace("+", " ", $search_string);

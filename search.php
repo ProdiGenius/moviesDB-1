@@ -49,6 +49,8 @@ if (strlen($search_string) >= 1 && $search_string !== '')
                     $output = str_replace('urlString', $display_url, $output);
 
                     echo($output);
+
+                    $counter++;
                 }
             }
             else {

@@ -103,7 +103,7 @@
                     <!-- Table Body -->
                     <tbody>');
 
-                $sql = "SELECT link, created FROM `$name`";
+                $sql = "SELECT link, quality, created FROM `$name`";
 
                 $retval = mysqli_query($conn, $sql);
 

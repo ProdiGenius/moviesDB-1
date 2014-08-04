@@ -103,6 +103,20 @@
 
 
     </script>
+
+    <style type="text/css">
+
+        #movie_select {
+            display: block;
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: cornflowerblue;
+        }
+
+    </style>
+
+
 </head>
 
 <body>
@@ -112,6 +126,12 @@
         theme : 'clean'
     };
 </script>
+
+
+<div id="movie_select">
+
+</div>
+
 
 <fieldset id="link_form">
     <legend>Submit a new Link</legend>

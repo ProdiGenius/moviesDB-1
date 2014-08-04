@@ -63,13 +63,14 @@ textarea {
 }
 
 .search_btn {
-    display: inline-block;
+    display: inline;
     border: 1px solid #D8D8D8;
     padding: 5px 15px 5px 15px;
     color: #8D8D8D;
     text-shadow: 1px 1px 1px #FFF;
     border-radius: 3px;
     background: #F8F8F8;
+    float: right;
 }
 
 .search_btn:hover {

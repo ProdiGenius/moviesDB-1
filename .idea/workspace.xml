@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie.php" afterPath="$PROJECT_DIR$/movie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.25531915" vertical-offset="810" max-vertical-offset="3195">
+            <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-7.5" vertical-offset="810" max-vertical-offset="3195">
               <folding>
                 <marker date="1407185796000" expanded="true" signature="2897:3138" placeholder="..." />
                 <marker date="1407185796000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="83" selection-start="644" selection-end="644" vertical-scroll-proportion="1.25" vertical-offset="315" max-vertical-offset="1020">
+            <state line="54" column="22" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.78723407" vertical-offset="255" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -171,13 +171,13 @@
         <option value="$PROJECT_DIR$/datalogin.php" />
         <option value="$PROJECT_DIR$/input.css" />
         <option value="$PROJECT_DIR$/css/search.css" />
-        <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/new_link_search.php" />
         <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/css/input.css" />
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/movie.php" />
+        <option value="$PROJECT_DIR$/search.php" />
       </list>
     </option>
   </component>
@@ -548,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="644" selection-end="644" vertical-scroll-proportion="1.25" vertical-offset="315" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/movie_styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="30" selection-start="391" selection-end="391" vertical-scroll-proportion="0.02124646" vertical-offset="330" max-vertical-offset="2550">
@@ -647,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.25531915" vertical-offset="810" max-vertical-offset="3195">
+        <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-7.5" vertical-offset="810" max-vertical-offset="3195">
           <folding>
             <marker date="1407185796000" expanded="true" signature="2897:3138" placeholder="..." />
             <marker date="1407185796000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -657,6 +650,13 @@
             <marker date="1407185796000" expanded="true" signature="5083:6093" placeholder="..." />
             <marker date="1407185796000" expanded="true" signature="6109:6193" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.78723407" vertical-offset="255" max-vertical-offset="1110">
+          <folding />
         </state>
       </provider>
     </entry>

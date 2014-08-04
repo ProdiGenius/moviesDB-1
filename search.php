@@ -22,31 +22,37 @@ if (strlen($search_string) >= 1 && $search_string !== '')
     $query = mysqli_query($conn,$sql) or die(mysqli_error($conn));
     $count = mysqli_num_rows($query);
 
+    $counter = 0;
+
     if ($count > 0)
     {
         while($row = mysqli_fetch_array($query))
         {
-            $table_name = $row[0];
-
-            $search_string = str_replace(" ", "+", $search_string);
-
-            if (strpos($table_name, $search_string) !== false)
-
-//            if ($search_string == $table_name)
+            if ($counter < 5)
             {
+                $table_name = $row[0];
 
-                $search_string = str_replace("+", " ", $search_string);
+                $search_string = str_replace(" ", "+", $search_string);
 
-                $decoded_name = urldecode($table_name);
-                $decoded_name = ucwords($decoded_name);
+                if (strpos($table_name, $search_string) !== false)
+                {
 
-                $display_name = preg_replace("/".$decoded_name."/i", "$decoded_name", $decoded_name);
-                $display_url = 'movie.php?id='.$table_name;
+                    $search_string = str_replace("+", " ", $search_string);
 
-                $output = str_replace('nameString', $display_name, $html);
-                $output = str_replace('urlString', $display_url, $output);
+                    $decoded_name = urldecode($table_name);
+                    $decoded_name = ucwords($decoded_name);
 
-                echo($output);
+                    $display_name = preg_replace("/".$decoded_name."/i", "$decoded_name", $decoded_name);
+                    $display_url = 'movie.php?id='.$table_name;
+
+                    $output = str_replace('nameString', $display_name, $html);
+                    $output = str_replace('urlString', $display_url, $output);
+
+                    echo($output);
+                }
+            }
+            else {
+                break;
             }
 
         }

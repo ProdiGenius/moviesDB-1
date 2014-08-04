@@ -30,7 +30,7 @@ if ($_POST)
         $output = json_encode(
             array(
                 'type' => 'error',
-                'text' => '<i>Sorry. This movie could not be found.</i>'
+                'text' => '<i>Sorry. This movie could not be found. Please make sure you typed the name correctly.</i>'
             ));
 
         die($output);

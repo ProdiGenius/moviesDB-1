@@ -161,7 +161,9 @@
             width: 520px;
             height: 250px;
             margin: 0 auto;
-            font-family: Arial;
+            /*font-family: Arial, Helvetica, sans-serif;*/
+            font-family:Verdana;
+            font-weight: normal!important;
             font-size: 11px;
         }
 

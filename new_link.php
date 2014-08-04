@@ -1,9 +1,9 @@
 <html>
 <head>
     <title>Add a New Movie</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/input.css">
     <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript">
 

@@ -63,6 +63,7 @@ textarea {
 }
 
 .search_btn {
+    display: inline-block;
     border: 1px solid #D8D8D8;
     padding: 5px 15px 5px 15px;
     color: #8D8D8D;

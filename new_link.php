@@ -21,7 +21,7 @@
 
             if (proceed_search)
             {
-                post_search_data = {'name': name};
+                post_search_data = {'name': movie_name};
 
                 $.ajax ({
                     type: 'POST',

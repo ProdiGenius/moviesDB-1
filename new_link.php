@@ -108,6 +108,7 @@
         });
 
         $("#movie_select input").keyup(function() {
+            $("#link_form input").css('border-color', '');
             $("#search_result").slideUp();
         });
 
@@ -154,27 +155,6 @@
 
 
     </script>
-
-    <style type="text/css">
-
-        #movie_select {
-            display: block;
-            width: 520px;
-            height: 250px;
-            margin: 0 auto;
-            /*font-family: Arial, Helvetica, sans-serif;*/
-            font-family:Verdana;
-            font-weight: normal!important;
-            font-size: 11px;
-        }
-
-        #search_form input {
-            float: left;
-        }
-
-    </style>
-
-
 </head>
 
 <body>
@@ -188,6 +168,7 @@
 
 <fieldset id="link_form">
 
+    <div id = "movie_select">
         <div class="search_form">
             <label for= "name">
                 <span>Movie Name</span>
@@ -202,7 +183,7 @@
         <div id="search_result">
 
         </div>
-
+    </div>
 
     <legend>Submit a new Link</legend>
     <div id="result"></div>

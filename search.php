@@ -36,7 +36,9 @@ if (strlen($search_string) >= 1 && $search_string !== '')
 
                 $search_string = str_replace("+", " ", $search_string);
 
-                $display_name = preg_replace("/".urldecode($table_name)."/i", "urldecode($table_name)", urldecode($table_name));
+                $decoded_name = urldecode($table_name);
+
+                $display_name = preg_replace("/".$decoded_name."/i", "$decoded_name", $decoded_name);
                 $display_url = 'movie.php?id='.$table_name;
 
                 $output = str_replace('nameString', $display_name, $html);

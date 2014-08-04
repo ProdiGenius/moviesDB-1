@@ -11,6 +11,7 @@ $html .= '</ul>';
 
 $search_string = preg_replace("/[^A-Za-z0-9]/", " ", $_POST['query']);
 $search_string = str_replace(" ", "+", $search_string);
+$search_string = strtolower($search_string);
 
 if (strlen($search_string) >= 1 && $search_string !== '')
 {

@@ -33,8 +33,12 @@
                         {
                             html_output = '<div class="error">' + res.text + '</div>';
                         } else {
-                            html_output = '<div class="success">' + res.text + '</div>';
+                            //html_output = '<div class="success">' + res.text + '</div>';
+                            alert("Movie: " + res.text);
                         }
+
+                        $("#search_result").hide().html(html_output).slideDown();
+
                     },
                     error: function (xhr, status, errorThrown) {
                         console.log(xhr);

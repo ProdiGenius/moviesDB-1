@@ -80,7 +80,6 @@ ul#results li:first-child {
     border-top: none;
 }
 ul#results li h3, ul#results li h4 {
-    transition: color .3s ease-in-out;
     color: #616161;
     line-height: 1.2em;
 }

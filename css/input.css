@@ -12,23 +12,23 @@
     margin-left: auto;
 }
 
-#link_form legend {
+legend {
     font-size: 15px;
     color: #C9C9C9;
 }
 
-#link_form label {
+label {
     display: block;
     margin-bottom: 5px;
 }
 
-#link_form label span {
+label span {
     float: left;
     width: 100px;
     color: #666666;
 }
 
-#link_form input {
+input {
     height: 25px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
@@ -38,7 +38,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#link_form textarea {
+textarea {
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     padding-left: 4px;

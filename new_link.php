@@ -108,7 +108,7 @@
 
         #movie_select {
             display: block;
-            width: 550px;
+            width: 520px;
             height: 300px;
             margin: 0 auto;
             background-color: cornflowerblue;
@@ -132,6 +132,10 @@
     <label for= "name">
         <span>Movie Name</span>
         <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
+    </label>
+    <label>
+        <span>&nbsp;</span>
+        <button class="submit_btn" id="search">Submit</button>
     </label>
 </div>
 

@@ -17,6 +17,7 @@
             if (movie_name == "")
             {
                 $('input[name=name]').css('border-color', 'red');
+                proceed_search = false;
             }
 
             if (proceed_search)

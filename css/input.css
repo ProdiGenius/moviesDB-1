@@ -96,6 +96,7 @@ textarea {
     border: 1px solid #B9ECCE;
     border-radius: 5px;
     font-weight: normal;
+    text-align: left;
 }
 
 .error {

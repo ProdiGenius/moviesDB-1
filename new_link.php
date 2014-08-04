@@ -34,7 +34,6 @@
                             html_output = '<div class="error">' + res.text + '</div>';
                         } else {
                             html_output = '<div class="success">' + res.text + '</div>';
-                            alert("Movie: " + res.text);
                         }
 
                         $("#search_result").hide().html(html_output).slideDown();
@@ -160,8 +159,9 @@
         #movie_select {
             display: block;
             width: 520px;
-            height: 300px;
+            height: 200px;
             margin: 0 auto;
+            font-family: Arial;
         }
 
     </style>

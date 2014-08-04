@@ -46,7 +46,7 @@ if ($_POST) {
 
         $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
         $link = filter_var($_POST["link"], FILTER_SANITIZE_URL);
-        $quality = filter_var($_POST["host"], FILTER_SANITIZE_STRING);
+        $quality = filter_var($_POST["quality"], FILTER_SANITIZE_STRING);
 
         if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $link)) {
             $output = json_encode(array('type' => 'error', 'text' => 'Not a valid URL.'));

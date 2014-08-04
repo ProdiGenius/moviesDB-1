@@ -3,7 +3,6 @@
     <title>Add a New Movie</title>
     <link rel="stylesheet" type="text/css" href="css/input.css">
     <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
-    <script src="js/search.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript">
 
@@ -293,8 +292,7 @@
     </label>
 
 </fieldset>
-
-</body>
+<script src="js/search.js"></script>
 <script language="javascript" type="text/javascript" src="js/link_target.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -306,4 +304,5 @@
     ga('send', 'pageview');
 
 </script>
+</body>
 </html>

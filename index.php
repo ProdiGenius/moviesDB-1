@@ -176,35 +176,36 @@
 		?>
 		</ul>
 		<ul style="margin: 0px 30px 0px 30px;">
-        <li><a class="mainLink" href="/watch-maleficent-2014-1.html"
-            title="Maleficent (2014)">Maleficent (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-rooster-doodle-doo-2014.html"
-            title="Rooster Doodle-doo (2014)">Rooster Doodle-doo (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-summer-s-shadow-2014.html"
-            title="Summer's Shadow (2014)">Summer's Shadow (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-a-long-way-down-2014.html"
-            title="A Long Way Down (2014)">A Long Way Down (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-the-angriest-man-in-brooklyn-2014.html"
-            title="The Angriest Man in Brooklyn (2014)">The Angriest Man in Brooklyn (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-the-red-house-2014.html"
-            title="The Red House (2014)">The Red House (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-one-small-hitch-2013.html"
-            title="One Small Hitch (2013)">One Small Hitch (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-blue-ruin-2013.html"
-            title="Blue Ruin (2013)">Blue Ruin (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-anna-2013.html"
-            title="Anna (2013)">Anna (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-dawn-of-the-planet-of-the-apes-2014.html"
-            title="Dawn of the Planet of the Apes (2014)">Dawn of the Planet of the Apes (2014)</a>
+
+        <?php
+
+
+        //PRODUCTION !!
+        //$table_list = "SHOW TABLES FROM `yossil01_movies` ";
+
+        //DEV!!
+        //$table_list = "SHOW TABLES FROM `movies` ";
+
+        //STAGING !!
+        $table_list = "SHOW TABLES FROM `heroku_d78f3829bda1f61` ";
+
+        $counter = 0;
+
+        $rs = mysqli_query($conn, $table_list);
+
+        while ($counter < 21 && $row = mysqli_fetch_array($rs))
+        {
+            if ($counter > 10)
+            {
+                $row[0] = ucwords($row[0]);
+                echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+            }
+            $counter++;
+        }
+
+        mysqli_close($conn);
+
+        ?>
         
 		</ul>
 		<ul>

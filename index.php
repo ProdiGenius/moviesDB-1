@@ -183,7 +183,7 @@
                 {
                     if ($counter == 10)
                     {
-                        echo ("<ul>");
+                        echo ("<ul style='margin: 0px 30px 0px 30px;'>");
                     }
                     $row[0] = ucwords($row[0]);
                     echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="datalogin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datalogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="381" selection-end="381" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="480">
+            <state line="20" column="30" selection-start="543" selection-end="543" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -93,19 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="77" selection-start="593" selection-end="593" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="930">
+            <state line="21" column="18" selection-start="682" selection-end="682" vertical-scroll-proportion="0.19148937" vertical-offset="180" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new_link.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="0" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.4893617" vertical-offset="1635" max-vertical-offset="2340">
+            <state line="132" column="0" selection-start="4820" selection-end="4820" vertical-scroll-proportion="-14.375" vertical-offset="1635" max-vertical-offset="2340">
               <folding />
             </state>
           </provider>
@@ -152,12 +152,12 @@
         <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/datalogin.php" />
-        <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/input.css" />
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/new_link.php" />
+        <option value="$PROJECT_DIR$/search.php" />
       </list>
     </option>
   </component>
@@ -519,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="381" selection-end="381" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
@@ -536,13 +529,6 @@
     <entry file="file://$PROJECT_DIR$/googlebbda5108f439fd13.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="77" selection-start="593" selection-end="593" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
@@ -610,7 +596,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.4893617" vertical-offset="1635" max-vertical-offset="2340">
+        <state line="132" column="0" selection-start="4820" selection-end="4820" vertical-scroll-proportion="-14.375" vertical-offset="1635" max-vertical-offset="2340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="543" selection-end="543" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="682" selection-end="682" vertical-scroll-proportion="0.19148937" vertical-offset="180" max-vertical-offset="930">
           <folding />
         </state>
       </provider>

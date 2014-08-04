@@ -22,40 +22,14 @@ if (strlen($search_string) >= 1 && $search_string !== '')
     $query = mysqli_query($conn,$sql) or die(mysqli_error($conn));
     $count = mysqli_num_rows($query);
 
+    $counter = 0;
+
     if ($count > 0)
     {
-
-        while($row = msqli_fetch_array($query))
+        while($row = mysqli_fetch_array($query))
         {
-            $search_data[] = $row[0];
-        }
-
-        foreach ($search_data as $search)
-        {
-            $search_string = str_replace(" ", "+", $search_string);
-
-            if (strpos($search, $search_string) !== false)
+            if ($counter < 5)
             {
-
-                $search_string = str_replace("+", " ", $search_string);
-
-                $decoded_name = urldecode($table_name);
-                $decoded_name = ucwords($decoded_name);
-
-                $display_name = preg_replace("/".$decoded_name."/i", "$decoded_name", $decoded_name);
-                $display_url = 'movie.php?id='.$table_name;
-
-                $output = str_replace('nameString', $display_name, $html);
-                $output = str_replace('urlString', $display_url, $output);
-
-                echo($output);
-            }
-
-
-        }
-
-        /*while($row = mysqli_fetch_array($query))
-        {
                 $table_name = $row[0];
 
                 $search_string = str_replace(" ", "+", $search_string);
@@ -75,12 +49,15 @@ if (strlen($search_string) >= 1 && $search_string !== '')
                     $output = str_replace('urlString', $display_url, $output);
 
                     echo($output);
+
+                    $counter++;
                 }
+            }
             else {
                 break;
             }
 
-        }*/
+        }
 
     } else {
         $output = str_replace('urlString', 'JavaScript:void(0)', $html);

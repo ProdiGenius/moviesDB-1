@@ -123,7 +123,7 @@
                     echo('
                     <tr>
                         <td><a href=' . addhttp($row["link"]) . '>' . $row["link"] . '</a> </td>
-                        <td>DVD</td>
+                        <td>'.$row["quality"].'</td>
                         <td>' . $row["created"] . '</td>
                         <td>
 

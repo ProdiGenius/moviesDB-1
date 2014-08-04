@@ -108,6 +108,9 @@
 
         $("#movie_select input").keyup(function() {
             $("#search_result").slideUp();
+            $("link_form").slideDown('fast', function() {
+
+            });
         });
 
 

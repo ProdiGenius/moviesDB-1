@@ -8,7 +8,7 @@
         $(document).ready(function() {
 
 
-        $(".search_btn").clicl(function() {
+        $(".search_btn").click(function() {
 
             var movie_name = $('input[name="name"]');
 

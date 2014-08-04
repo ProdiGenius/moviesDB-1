@@ -99,7 +99,7 @@ if ($_POST) {
 					created DATETIME)
 					";
 
-                $sql_insert = "INSERT INTO `$name`
+                $sql_insert = "INSERT INTO `$$response_name`
 							(link, quality, created)
 							VALUES ('$link', '$quality', NOW())";
 

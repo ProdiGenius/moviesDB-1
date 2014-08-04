@@ -69,8 +69,6 @@ textarea {
     text-shadow: 1px 1px 1px #FFF;
     border-radius: 3px;
     background: #F8F8F8;
-    float: right;
-    clear: both;
 }
 
 .search_btn:hover {

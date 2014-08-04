@@ -12,18 +12,18 @@
 
             alert("clicked");
 
-            var movie_name = $('input[name="name"]');
+            var movie_name = $('input[name="name"]').val();
 
             var proceed_search = true;
 
-            if (movie_name == "")
-            {
-                $('input[name=name]').css('border-color', 'red');
-            }
+            //if (movie_name == "")
+            //{
+                //$('input[name=name]').css('border-color', 'red');
+            //}
 
             if (proceed_search)
             {
-                post_search_data = {'name': name};
+                post_search_data = {'name': movie_name};
 
                 $.ajax ({
                     type: 'POST',

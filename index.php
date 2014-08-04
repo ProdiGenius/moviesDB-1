@@ -147,7 +147,6 @@
 				</div>
 			</ul>
 		<div class="threeColList">
-		<ul>
 		<?php
 
 
@@ -168,20 +167,44 @@
 			{
                 if ($counter < 10)
                 {
+                    if ($counter == 0)
+                    {
+                        echo ("<ul>");
+                    }
                     $row[0] = ucwords($row[0]);
                     echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                    if ($counter == 9)
+                    {
+                        echo ("</ul>");
+                    }
                 }
 
                 if ($counter >= 10 && $counter < 21)
                 {
+                    if ($counter == 10)
+                    {
+                        echo ("<ul>");
+                    }
                     $row[0] = ucwords($row[0]);
                     echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                    if ($counter == 20)
+                    {
+                        echo ("</ul>");
+                    }
                 }
 
                 if ($counter >= 21 && $counter < 31)
                 {
+                    if ($counter == 21)
+                    {
+                        echo ("<ul>");
+                    }
                     $row[0] = ucwords($row[0]);
                     echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                    if ($counter == 30)
+                    {
+                        echo ("</ul>");
+                    }
                 }
 
                 $counter++;
@@ -190,8 +213,6 @@
             mysqli_close($conn);
 
 		?>
-		</ul>
-
     <a class="showMore" href="/new-movies.html">more »</a>
 	</div>
 		</section>	

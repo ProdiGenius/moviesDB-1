@@ -35,7 +35,7 @@
                         {
                             html_output = '<div class="error">' + res.text + '</div>';
                         } else {
-                            //html_output = '<div class="success">' + res.text + '</div>';
+                            html_output = '<div class="success">' + res.text + '</div>';
                             alert("Movie: " + res.text);
                         }
 

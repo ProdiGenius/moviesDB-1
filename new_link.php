@@ -57,7 +57,7 @@
 
             var name = $('input[name="name"]').val();
             var link = $('input[name="link"]').val();
-            var host = $('input[name="host"]').val();
+            var quality = $("#quality").val();
 
             var challengeField = $("#recaptcha_challenge_field").val();
             var responseField = $("input#recaptcha_response_field").val();
@@ -71,13 +71,13 @@
                 $('input[name=link]').css('border-color', 'red');
                 proceed = false;
             }
-            if (host == "") {
-                $('input[name=host]').css('border-color', 'red');
-                proceed = false;
+            if (!quality)
+            {
+                alert("select is empty");
             }
 
             if (proceed) {
-                post_data = {'name': name, 'link': link, 'host': host, 'challengeField': challengeField, 'responseField': responseField};
+                post_data = {'name': name, 'link': link, 'quality': quality, 'challengeField': challengeField, 'responseField': responseField};
 
                 $.ajax ({
                     type: 'POST',
@@ -193,9 +193,13 @@
         <input type="text" name="link" id="link" placeholder="Movie link" autocomplete="off">
     </label>
 
-    <label for = "Host Site">
-        <span>Host Site</span>
-        <input type="text" name="host" id="host" placeholder="Host website name" autocomplete="off">
+    <label for = "Link Quality">
+        <span>Link Quality</span>
+        <select id="quality">
+            <option value="DVD">DVD</option>
+            <option value="TS">TS (Telesync)</option>
+            <option value="CAM">CAM</option>
+        </select>
     </label>
 
     <?php

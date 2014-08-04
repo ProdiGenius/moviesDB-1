@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_link.php" afterPath="$PROJECT_DIR$/new_link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,22 +85,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="-16.958334" vertical-offset="718" max-vertical-offset="1860">
+            <state line="102" column="36" selection-start="3176" selection-end="3176" vertical-scroll-proportion="1.1705202" vertical-offset="720" max-vertical-offset="1875">
               <folding>
-                <marker date="1407033217000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-                <marker date="1407033217000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
+                <marker date="1407164831000" expanded="true" signature="2247:2306" placeholder="INSERT INTO ..." />
+                <marker date="1407164831000" expanded="true" signature="3042:3136" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new_link.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="13" selection-start="5556" selection-end="5556" vertical-scroll-proportion="0.17021276" vertical-offset="2220" max-vertical-offset="3495">
+            <state line="79" column="75" selection-start="2396" selection-end="2396" vertical-scroll-proportion="-11.875" vertical-offset="900" max-vertical-offset="3555">
               <folding />
             </state>
           </provider>
@@ -152,7 +153,6 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/datalogin.php" />
         <option value="$PROJECT_DIR$/input.css" />
-        <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/movie.php" />
@@ -160,6 +160,7 @@
         <option value="$PROJECT_DIR$/new_link_search.php" />
         <option value="$PROJECT_DIR$/css/input.css" />
         <option value="$PROJECT_DIR$/new_link.php" />
+        <option value="$PROJECT_DIR$/submit.php" />
       </list>
     </option>
   </component>
@@ -420,8 +421,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="43" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1710">
           <folding>
-            <marker date="1407033217000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-            <marker date="1407033217000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
+            <marker date="1407164831000" expanded="true" signature="2247:2306" placeholder="INSERT INTO ..." />
+            <marker date="1407164831000" expanded="true" signature="3042:3136" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -535,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="-16.958334" vertical-offset="718" max-vertical-offset="1860">
-          <folding>
-            <marker date="1407033217000" expanded="true" signature="2255:2314" placeholder="INSERT INTO ..." />
-            <marker date="1407033217000" expanded="true" signature="3024:3097" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="83" selection-start="644" selection-end="644" vertical-scroll-proportion="1.25" vertical-offset="315" max-vertical-offset="1020">
@@ -619,8 +610,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="13" selection-start="5556" selection-end="5556" vertical-scroll-proportion="0.17021276" vertical-offset="2220" max-vertical-offset="3495">
+        <state line="79" column="75" selection-start="2396" selection-end="2396" vertical-scroll-proportion="-11.875" vertical-offset="900" max-vertical-offset="3555">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="36" selection-start="3176" selection-end="3176" vertical-scroll-proportion="1.1705202" vertical-offset="720" max-vertical-offset="1875">
+          <folding>
+            <marker date="1407164831000" expanded="true" signature="2247:2306" placeholder="INSERT INTO ..." />
+            <marker date="1407164831000" expanded="true" signature="3042:3136" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>

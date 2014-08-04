@@ -23,14 +23,14 @@ if ($_POST) {
         die($output);
     }
 
-    if (!isset($_POST["name"]) || !isset($_POST["link"]) || !isset($_POST["host"])) {
+    if (!isset($_POST["name"]) || !isset($_POST["link"]) || !isset($_POST["quality"])) {
         $output = json_encode(array('type' => 'error', 'text' => 'Input fields are empty!'));
         die ($output);
     }
 
     if (!isset($_POST["responseField"]))
     {
-        $output = json_encode(array('type' => 'error', 'text' => 'CAPTCHA FIELDS EMPTY FOR FUCKS SAKE'));
+        $output = json_encode(array('type' => 'error', 'text' => 'The captcha is empty.'));
         die ($output);
     }
 
@@ -46,7 +46,7 @@ if ($_POST) {
 
         $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
         $link = filter_var($_POST["link"], FILTER_SANITIZE_URL);
-        $host = filter_var($_POST["host"], FILTER_SANITIZE_STRING);
+        $quality = filter_var($_POST["host"], FILTER_SANITIZE_STRING);
 
         if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $link)) {
             $output = json_encode(array('type' => 'error', 'text' => 'Not a valid URL.'));
@@ -92,12 +92,13 @@ if ($_POST) {
 					(id INT NOT NULL AUTO_INCREMENT,
 					PRIMARY KEY (id),
 					link VARCHAR(500),
+					quality VARCHAR(10),
 					created DATETIME)
 					";
 
                 $sql_insert = "INSERT INTO `$name`
-							(link, created)
-							VALUES ('$link', NOW())";
+							(link, quality, created)
+							VALUES ('$link', '$quality', NOW())";
 
                 mysqli_query($conn, $sql_create) or die (mysql_error());
                 mysqli_query($conn, $sql_insert) or die (mysql_error());

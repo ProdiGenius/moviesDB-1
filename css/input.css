@@ -3,6 +3,7 @@
     padding: 20px;
     border: 1px solid #DDD;
     border-radius: 5px;
+    margin-top: 60px;
     /*font-family: Arial;*/
     font-family:Verdana;
     font-size: 11px;
@@ -13,23 +14,23 @@
     margin-left: auto;
 }
 
-legend {
+#link_form legend {
     font-size: 15px;
     color: #C9C9C9;
 }
 
-label {
+#link_form label {
     display: block;
     margin-bottom: 5px;
 }
 
-label span {
+#link_form label span {
     float: left;
     width: 100px;
     color: #666666;
 }
 
-input {
+#link_form input {
     height: 25px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
@@ -41,7 +42,7 @@ input {
     font-weight: normal!important;
 }
 
-textarea {
+#link_form textarea {
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     padding-left: 4px;

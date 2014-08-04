@@ -64,7 +64,7 @@
 
                 <div id="thumbnail-box">
 
-                <a href="" title="' . $details->Title . ' (2014)">
+                <a href="" title="' . $details->Title .' '. $details->Year.'">
 			    <img src= http://img.omdbapi.com/?i='.$imdb.'&apikey=dcff2d3d></a>
 
 			    </div>

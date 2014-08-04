@@ -7,6 +7,48 @@
 
         $(document).ready(function() {
 
+
+        $(".search_btn").clicl(function() {
+
+            var movie_name = $('input[name="name"]');
+
+            var proceed_search = true;
+
+            if (movie_name == "")
+            {
+                $('input[name=name]').css('border-color', 'red');
+            }
+
+            if (proceed_search)
+            {
+                post_search_data = {'name': name};
+
+                $.ajax ({
+                    type: 'POST',
+                    url: 'new_link_search.php',
+                    data: post_search_data,
+                    async: false,
+                    success: function(res) {
+                        if (res.type == 'error')
+                        {
+                            html_output = '<div class="error">' + res.text + '</div>';
+                        } else {
+                            html_output = '<div class="success">' + res.text + '</div>';
+                        }
+                    },
+                    error: function (xhr, status, errorThrown) {
+                        console.log(xhr);
+                    },
+                    dataType:"json"
+                });
+
+            }
+
+        });
+
+
+
+
         $(".submit_btn").click(function () {
 
             var name = $('input[name="name"]').val();
@@ -60,6 +102,11 @@
 
             }
         });
+
+        $("#movie_select input").keyup(function() {
+            $("#search_result").slideUp();
+        });
+
 
         $("#link_form input").keyup(function () {
             $("#link_form input").css('border-color', '');
@@ -135,8 +182,13 @@
     </label>
     <label>
         <span>&nbsp;</span>
-        <button class="submit_btn" id="search">Submit</button>
+        <button class="search_btn" id="search">Search</button>
     </label>
+
+    <div id="search_result">
+
+    </div>
+
 </div>
 
 

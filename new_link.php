@@ -108,7 +108,6 @@
         });
 
         $("#movie_select input").keyup(function() {
-            alert("result should appear");
             $("#search_result").slideUp();
         });
 
@@ -181,6 +180,9 @@
 
 
 <div id="movie_select">
+    <div id="search_result">
+
+    </div>
     <label for= "name">
         <span>Movie Name</span>
         <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
@@ -189,10 +191,6 @@
         <span>&nbsp;</span>
         <button class="search_btn" id="search">Search</button>
     </label>
-
-    <div id="search_result">
-
-    </div>
 
 </div>
 

@@ -14,6 +14,9 @@ if ($_POST)
         die($output);
     }
 
+    $output = json_encode(array('type' => 'message', 'text' => 'you are in the php '));
+    die ($output);
+
     $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
 
     $name = urlencode($name);

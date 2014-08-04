@@ -162,6 +162,7 @@
             height: 200px;
             margin: 0 auto;
             font-family: Arial;
+            font-size: 11px;
         }
 
     </style>

@@ -17,7 +17,7 @@ if (strlen($search_string) >= 1 && $search_string !== '')
 {
     //$sql = "SHOW TABLES FROM `movies` LIKE '%$search_string'";
     //$sql = "SHOW TABLES FROM `yossil01_movies` LIKE '%$search_string'";
-    $sql = 'SHOW TABLES FROM `heroku_d78f3829bda1f61` LIKE "%' .$search_string. '%"';
+    $sql = 'SHOW TABLES FROM `heroku_d78f3829bda1f61` LIKE "%' .$search_string. '%" LIMIT 5';
 
     $query = mysqli_query($conn,$sql) or die(mysqli_error($conn));
     $count = mysqli_num_rows($query);

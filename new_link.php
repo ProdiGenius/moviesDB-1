@@ -185,25 +185,24 @@
 </script>
 
 
-<div id="movie_select">
-    <div class="search_form">
-    <label for= "name">
-        <span>Movie Name</span>
-        <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
-    </label>
-    <label>
-        <span>&nbsp;</span>
-        <button class="search_btn" id="search">Search</button>
-    </label>
-    </div>
-
-    <div id="search_result">
-
-    </div>
-</div>
-
-
 <fieldset id="link_form">
+
+        <div class="search_form">
+            <label for= "name">
+                <span>Movie Name</span>
+                <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
+            </label>
+            <label>
+                <span>&nbsp;</span>
+                <button class="search_btn" id="search">Search</button>
+            </label>
+        </div>
+
+        <div id="search_result">
+
+        </div>
+
+
     <legend>Submit a new Link</legend>
     <div id="result"></div>
 

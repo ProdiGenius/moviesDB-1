@@ -162,7 +162,6 @@
             width: 520px;
             height: 300px;
             margin: 0 auto;
-            background-color: cornflowerblue;
         }
 
     </style>
@@ -180,9 +179,6 @@
 
 
 <div id="movie_select">
-    <div id="search_result">
-
-    </div>
     <div class="search_form">
     <label for= "name">
         <span>Movie Name</span>
@@ -194,6 +190,9 @@
     </label>
     </div>
 
+    <div id="search_result">
+
+    </div>
 </div>
 
 

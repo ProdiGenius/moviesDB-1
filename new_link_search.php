@@ -24,7 +24,7 @@ if ($_POST)
 
     if ($details->Response == 'True')
     {
-        $output = json_encode(array('type' => 'message', 'text' => $details->Title . ' ' . $details->Year));
+        $output = json_encode(array('type' => 'message', 'text' => $details->Title . ' ' . $details->Year . '<br>' . $details->Plot));
         die ($output);
     }
 

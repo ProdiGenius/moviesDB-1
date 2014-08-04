@@ -10,6 +10,8 @@
 
         $(".search_btn").click(function() {
 
+            alert("clicked");
+
             var movie_name = $('input[name="name"]');
 
             var proceed_search = true;

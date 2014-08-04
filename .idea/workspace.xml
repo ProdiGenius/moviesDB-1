@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_link.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="28" selection-start="5681" selection-end="5681" vertical-scroll-proportion="-12.375" vertical-offset="2163" max-vertical-offset="3690">
+            <state line="168" column="23" selection-start="5745" selection-end="5745" vertical-scroll-proportion="0.18723404" vertical-offset="2388" max-vertical-offset="3750">
               <folding />
             </state>
           </provider>
@@ -115,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="input.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/input.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30041152" vertical-offset="96" max-vertical-offset="1545">
+            <state line="25" column="16" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
@@ -159,8 +159,8 @@
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/new_link_search.php" />
-        <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/css/input.css" />
+        <option value="$PROJECT_DIR$/new_link.php" />
       </list>
     </option>
   </component>
@@ -611,16 +611,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_link.php">
+    <entry file="file://$PROJECT_DIR$/css/input.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="28" selection-start="5681" selection-end="5681" vertical-scroll-proportion="-12.375" vertical-offset="2163" max-vertical-offset="3690">
+        <state line="25" column="16" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/input.css">
+    <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30041152" vertical-offset="96" max-vertical-offset="1545">
+        <state line="168" column="23" selection-start="5745" selection-end="5745" vertical-scroll-proportion="0.18723404" vertical-offset="2388" max-vertical-offset="3750">
           <folding />
         </state>
       </provider>

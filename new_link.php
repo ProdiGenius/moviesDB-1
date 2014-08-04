@@ -165,6 +165,10 @@
             font-size: 11px;
         }
 
+        #search_form input {
+            float: left;
+        }
+
     </style>
 
 

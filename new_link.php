@@ -3,6 +3,7 @@
     <title>Add a New Movie</title>
     <link rel="stylesheet" type="text/css" href="css/input.css">
     <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript">
 
@@ -156,61 +157,6 @@
 
 
     </script>
-
-    <style type="text/css">
-        #navContainer {
-            margin: 0 auto;
-            width: 1140px;
-            height: 40px;
-            z-index: 7;
-            background-color: #36a2d2;
-            font-family:Verdana;
-            font-size: 15px;
-        }
-
-        #Home{
-            display: inline-block;
-            height:40px;
-            width:90px;
-            z-index:7;
-            text-align:center;
-            font-weight:bold;
-            padding-top:17px;
-            font-weight: normal;
-        }
-
-        #navContainer p {
-            color: white;
-        }
-
-        #navContainer a{
-            color:white;
-        }
-        #Home:hover a{
-            color: #E1A304;
-        }
-        #Home:hover{
-            background-color: white;
-            color: #E1A304;
-        }
-
-        .dataTableContainer {
-            margin: 10px 0;
-        }
-
-        /* TEMP^ */
-        #header{
-            position: fixed;
-            z-index: 7;
-            width: 100%;
-            height: 55px;
-            padding: 0px;
-            top:0px;
-            background-color: #36a2d2;
-            opacity: 1;
-            background-image: none;
-        }
-    </style>
 
 </head>
 

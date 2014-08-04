@@ -87,9 +87,9 @@
       <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="28" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.3617021" vertical-offset="300" max-vertical-offset="3240">
+            <state line="16" column="38" selection-start="419" selection-end="419" vertical-scroll-proportion="0.21276596" vertical-offset="90" max-vertical-offset="3270">
               <folding>
-                <element signature="e#3761#5537#0" expanded="false" />
+                <element signature="e#3793#5569#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -415,7 +415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="135" selection-start="1146" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3840">
           <folding>
-            <element signature="e#3761#5537#0" expanded="false" />
+            <element signature="e#3793#5569#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,9 +623,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="28" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.3617021" vertical-offset="300" max-vertical-offset="3240">
+        <state line="16" column="38" selection-start="419" selection-end="419" vertical-scroll-proportion="0.21276596" vertical-offset="90" max-vertical-offset="3270">
           <folding>
-            <element signature="e#3761#5537#0" expanded="false" />
+            <element signature="e#3793#5569#0" expanded="false" />
           </folding>
         </state>
       </provider>

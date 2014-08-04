@@ -23,7 +23,7 @@
 
             if (proceed_search)
             {
-                post_search_data = {'name': movie_name};
+                post_search_data = {'name': name};
 
                 $.ajax ({
                     type: 'POST',

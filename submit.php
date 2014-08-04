@@ -91,7 +91,7 @@ if ($_POST) {
                 $response_name = $details->Title;
                 $response_name = urlencode($response_name);
 
-                $sql_create = "CREATE TABLE `$$response_name`
+                $sql_create = "CREATE TABLE `$response_name`
 					(id INT NOT NULL AUTO_INCREMENT,
 					PRIMARY KEY (id),
 					link VARCHAR(500),
@@ -99,7 +99,7 @@ if ($_POST) {
 					created DATETIME)
 					";
 
-                $sql_insert = "INSERT INTO `$$response_name`
+                $sql_insert = "INSERT INTO `$response_name`
 							(link, quality, created)
 							VALUES ('$link', '$quality', NOW())";
 

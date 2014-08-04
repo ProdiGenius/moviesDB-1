@@ -36,6 +36,7 @@ input {
     color: #666;
     width: 180px;
     font-family: Arial, Helvetica, sans-serif;
+    float: left;
 }
 
 textarea {
@@ -71,6 +72,7 @@ textarea {
     border-radius: 3px;
     background: #F8F8F8;
     float: right;
+    clear: both;
 }
 
 .search_btn:hover {

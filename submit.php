@@ -69,7 +69,7 @@ if ($_POST) {
 
             if (mysqli_num_rows($retval)) {
 
-                $sql = "INSERT INTO `$name` (link, created) VALUES ('$link', NOW())";
+                $sql = "INSERT INTO `$name` (link, quality, created) VALUES ('$link', '$quality', NOW())";
 
                 $retval = mysqli_query($conn, $sql);
 
@@ -88,7 +88,10 @@ if ($_POST) {
 
             } else {
 
-                $sql_create = "CREATE TABLE `$name`
+                $response_name = $details->Title;
+                $response_name = urlencode($response_name);
+
+                $sql_create = "CREATE TABLE `$$response_name`
 					(id INT NOT NULL AUTO_INCREMENT,
 					PRIMARY KEY (id),
 					link VARCHAR(500),

@@ -158,7 +158,7 @@
 
     </script>
 
-    <script type="text/css">
+    <style type="text/css">
         #navContainer {
             margin: 0 auto;
             width: 1140px;
@@ -211,7 +211,7 @@
             opacity: 1;
             background-image: none;
         }
-    </script>
+    </style>
 
 </head>
 

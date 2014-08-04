@@ -111,18 +111,10 @@
       <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="9" selection-start="6159" selection-end="6159" vertical-scroll-proportion="-0.79913294" vertical-offset="3253" max-vertical-offset="4710">
+            <state line="213" column="11" selection-start="6818" selection-end="6818" vertical-scroll-proportion="1.1950867" vertical-offset="2368" max-vertical-offset="4710">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1407182931000" expanded="true" signature="5685:5902" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="5917:6159" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6185:6222" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6247:6283" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6305:6344" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6364:6440" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6470:6509" placeholder="{...}" />
-                <marker date="1407182931000" expanded="true" signature="6546:6807" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -342,7 +334,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -441,14 +433,6 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1407182931000" expanded="true" signature="5685:5902" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="5917:6159" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6185:6222" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6247:6283" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6305:6344" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6364:6440" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6470:6509" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6546:6807" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -659,18 +643,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="9" selection-start="6159" selection-end="6159" vertical-scroll-proportion="-0.79913294" vertical-offset="3253" max-vertical-offset="4710">
+        <state line="213" column="11" selection-start="6818" selection-end="6818" vertical-scroll-proportion="1.1950867" vertical-offset="2368" max-vertical-offset="4710">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1407182931000" expanded="true" signature="5685:5902" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="5917:6159" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6185:6222" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6247:6283" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6305:6344" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6364:6440" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6470:6509" placeholder="{...}" />
-            <marker date="1407182931000" expanded="true" signature="6546:6807" placeholder="{...}" />
           </folding>
         </state>
       </provider>

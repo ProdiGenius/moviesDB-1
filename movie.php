@@ -58,12 +58,14 @@
 
             if ($details->Response == 'True') {
 
+                $imdb = $details->imdbID;
+
                 echo('
 
                 <div id="thumbnail-box">
 
                 <a href="" title="' . $details->Title . ' (2014)">
-			    <img src=' . $details->Poster . '/></a>
+			    <img src= http://img.omdbapi.com/?i='.$imdb.'&apikey=dcff2d3d/></a>
 
 			    </div>
 

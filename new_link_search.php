@@ -26,6 +26,14 @@ if ($_POST)
     {
         $output = json_encode(array('type' => 'message', 'text' => '<b>' . $details->Title . ' ' . $details->Year . ' </b> <br>' . $details->Plot . '<br><br><i>Not what you are looking for? Make sure the name of the film is correctly typed.</i>'));
         die ($output);
+    } else {
+        $output = json_encode(
+            array(
+                'type' => 'error',
+                'text' => '<i>Sorry. This movie could not be found.</i>'
+            ));
+
+        die($output);
     }
 
 }

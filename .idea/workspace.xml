@@ -87,9 +87,9 @@
       <file leaf-file-name="new_link.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="56" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.25531915" vertical-offset="360" max-vertical-offset="3225">
+            <state line="110" column="39" selection-start="3494" selection-end="3494" vertical-scroll-proportion="0.68085104" vertical-offset="1170" max-vertical-offset="3240">
               <folding>
-                <element signature="e#3712#5488#0" expanded="false" />
+                <element signature="e#3755#5531#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -415,7 +415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="135" selection-start="1146" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3840">
           <folding>
-            <element signature="e#3712#5488#0" expanded="false" />
+            <element signature="e#3755#5531#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_link_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2763" selection-end="2763" vertical-scroll-proportion="-11.958333" vertical-offset="988" max-vertical-offset="1860">
@@ -621,11 +614,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/new_link_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="56" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.25531915" vertical-offset="360" max-vertical-offset="3225">
+        <state line="110" column="39" selection-start="3494" selection-end="3494" vertical-scroll-proportion="0.68085104" vertical-offset="1170" max-vertical-offset="3240">
           <folding>
-            <element signature="e#3712#5488#0" expanded="false" />
+            <element signature="e#3755#5531#0" expanded="false" />
           </folding>
         </state>
       </provider>

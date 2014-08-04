@@ -108,6 +108,7 @@
         });
 
         $("#movie_select input").keyup(function() {
+            alert("result should appear");
             $("#search_result").slideUp();
         });
 

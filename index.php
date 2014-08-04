@@ -164,10 +164,26 @@
 
             $rs = mysqli_query($conn, $table_list);
 
-			while ($counter < 10 && $row = mysqli_fetch_array($rs))
+			while ($counter < 31 && $row = mysqli_fetch_array($rs))
 			{
-                $row[0] = ucwords($row[0]);
-                echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                if ($counter < 10)
+                {
+                    $row[0] = ucwords($row[0]);
+                    echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                }
+
+                if ($counter >= 10 && $counter < 21)
+                {
+                    $row[0] = ucwords($row[0]);
+                    echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                }
+
+                if ($counter >= 21 && $counter < 31)
+                {
+                    $row[0] = ucwords($row[0]);
+                    echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
+                }
+
                 $counter++;
 			}
 
@@ -175,70 +191,7 @@
 
 		?>
 		</ul>
-		<ul style="margin: 0px 30px 0px 30px;">
 
-        <?php
-
-
-        //PRODUCTION !!
-        //$table_list = "SHOW TABLES FROM `yossil01_movies` ";
-
-        //DEV!!
-        //$table_list = "SHOW TABLES FROM `movies` ";
-
-        //STAGING !!
-        $table_list = "SHOW TABLES FROM `heroku_d78f3829bda1f61` ";
-
-        $counter = 0;
-
-        $rs = mysqli_query($conn, $table_list);
-
-        while ($counter < 21 && $row = mysqli_fetch_array($rs))
-        {
-            if ($counter > 10)
-            {
-                $row[0] = ucwords($row[0]);
-                echo ucwords(urldecode("<li><a class='mainLink' href='movie.php?id=$row[0]'>$row[0]</a>"));
-            }
-            $counter++;
-        }
-
-        mysqli_close($conn);
-
-        ?>
-        
-		</ul>
-		<ul>
-        <li><a class="mainLink" href="/watch-the-art-of-the-steal-2013.html"
-            title="The Art of the Steal (2013)">The Art of the Steal (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-the-fault-in-our-stars-2014.html"
-            title="The Fault in Our Stars (2014)">The Fault in Our Stars (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-think-like-a-man-too-2014.html"
-            title="Think Like a Man Too (2014)">Think Like a Man Too (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-wings-sky-force-heroes-2014.html"
-            title="Wings: Sky Force Heroes (2014)">Wings: Sky Force Heroes (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-premature-2014.html"
-            title="Premature (2014)">Premature (2014)</a>
-        
-            <li><a class="mainLink" href="/watch-the-immigrant-2013.html"
-            title="The Immigrant (2013)">The Immigrant (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-five-thirteen-2013.html"
-            title="Five Thirteen (2013)">Five Thirteen (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-i-ll-follow-you-down-2013.html"
-            title="I'll Follow You Down (2013)">I'll Follow You Down (2013)</a>
-        
-            <li><a class="mainLink" href="/watch-war-of-the-worlds-goliath-2012.html"
-            title="War of the Worlds: Goliath (2012)">War of the Worlds: Goliath (2012)</a>
-        
-            <li><a class="mainLink" href="/watch-killing-daddy-2014.html"
-            title="Killing Daddy (2014)">Killing Daddy (2014)</a>
-        </ul>
     <a class="showMore" href="/new-movies.html">more »</a>
 	</div>
 		</section>	

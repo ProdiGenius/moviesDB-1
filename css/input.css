@@ -36,7 +36,6 @@ input {
     color: #666;
     width: 180px;
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
 }
 
 textarea {
@@ -47,6 +46,15 @@ textarea {
     height: 100px;
     width: 180px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_form > input {
+    float: left!important;
+    clear: right!important;
+}
+
+.search_form > button {
+    float: right;
 }
 
 .submit_btn {

@@ -183,6 +183,7 @@
     <div id="search_result">
 
     </div>
+    <div class="search_form">
     <label for= "name">
         <span>Movie Name</span>
         <input type="text" name="name" id="name" placeholder="Movie name" autocomplete="off">
@@ -191,6 +192,7 @@
         <span>&nbsp;</span>
         <button class="search_btn" id="search">Search</button>
     </label>
+    </div>
 
 </div>
 

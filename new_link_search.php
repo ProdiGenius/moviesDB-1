@@ -24,7 +24,7 @@ if ($_POST)
 
     if ($details->Response == 'True')
     {
-        $output = json_encode(array('type' => 'message', 'text' => 'Movie: ' . $details->Title));
+        $output = json_encode(array('type' => 'message', 'text' => $details->Title . ' ' . $details->Year));
         die ($output);
     }
 

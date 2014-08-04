@@ -10,18 +10,14 @@
 
         $(".search_btn").click(function() {
 
-            alert("clicked");
-
             var movie_name = $('input[name="name"]').val();
 
             var proceed_search = true;
 
-            alert(movie_name);
-
-            //if (movie_name == "")
-            //{
-                //$('input[name=name]').css('border-color', 'red');
-            //}
+            if (movie_name == "")
+            {
+                $('input[name=name]').css('border-color', 'red');
+            }
 
             if (proceed_search)
             {

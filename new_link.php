@@ -159,7 +159,7 @@
         #movie_select {
             display: block;
             width: 520px;
-            height: 200px;
+            height: 100px;
             margin: 0 auto;
             font-family: Arial;
             font-size: 11px;

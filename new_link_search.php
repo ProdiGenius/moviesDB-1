@@ -24,7 +24,7 @@ if ($_POST)
 
     if ($details->Response == 'True')
     {
-        $output = json_encode(array('type' => 'message', 'text' => '<b>' . $details->Title . ' ' . $details->Year . ' </b> <br>' . $details->Plot . '<br> <i>Not what you are looking for? Make sure the name of the film is correctly typed.</i>));
+        $output = json_encode(array('type' => 'message', 'text' => '<b>' . $details->Title . ' ' . $details->Year . ' </b> <br>' . $details->Plot . '<br> <i>Not what you are looking for? Make sure the name of the film is correctly typed.</i>'));
         die ($output);
     }
 

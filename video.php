@@ -23,6 +23,17 @@ $row = mysqli_fetch_assoc($response);
 
 $video_link = $row["link"];
 
+echo ('
+
+    <div id="video_container">
+        <iframe src="'.$video_link.'" height="500px" width="500px">
+
+        </iframe>
+
+    </div>
+
+');
+
 echo ($video_link);
 
 ?>

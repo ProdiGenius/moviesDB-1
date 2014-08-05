@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/video.php" afterPath="$PROJECT_DIR$/video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video.php" afterPath="$PROJECT_DIR$/video.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,9 +93,9 @@
       <file leaf-file-name="video.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="15" selection-start="245" selection-end="245" vertical-scroll-proportion="0.29787233" vertical-offset="0" max-vertical-offset="705">
+            <state line="13" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.27659574" vertical-offset="0" max-vertical-offset="705">
               <folding>
-                <marker date="1407200026000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
+                <marker date="1407200640000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
               </folding>
             </state>
           </provider>
@@ -658,9 +657,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="245" selection-end="245" vertical-scroll-proportion="0.29787233" vertical-offset="0" max-vertical-offset="705">
+        <state line="13" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.27659574" vertical-offset="0" max-vertical-offset="705">
           <folding>
-            <marker date="1407200026000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
+            <marker date="1407200640000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
           </folding>
         </state>
       </provider>

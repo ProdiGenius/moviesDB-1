@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/video.php" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,19 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="7005">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-7.5" vertical-offset="810" max-vertical-offset="3195">
+            <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="23.75" vertical-offset="1560" max-vertical-offset="3195">
               <folding>
                 <marker date="1407185796000" expanded="true" signature="2897:3138" placeholder="..." />
                 <marker date="1407185796000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -90,11 +81,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="29" selection-start="1665" selection-end="1697" vertical-scroll-proportion="0.7446808" vertical-offset="255" max-vertical-offset="1140">
+            <state line="56" column="22" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-24.375" vertical-offset="255" max-vertical-offset="1140">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="705">
+              <folding>
+                <marker date="1407200026000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,15 +121,6 @@
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/input.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="11" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,6 +171,7 @@
         <option value="$PROJECT_DIR$/new_link.php" />
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/css/video.php" />
       </list>
     </option>
   </component>
@@ -541,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="543" selection-end="543" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/movie_styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="30" selection-start="391" selection-end="391" vertical-scroll-proportion="0.02124646" vertical-offset="330" max-vertical-offset="2550">
@@ -565,41 +552,6 @@
     <entry file="file://$PROJECT_DIR$/new_link_search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="119" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.6936416" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="923" column="36" selection-start="41041" selection-end="41041" vertical-scroll-proportion="-17.583334" vertical-offset="13423" max-vertical-offset="14115">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#section#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#2;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#section#2;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#section#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#section#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ul#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1407127318000" expanded="true" signature="7215:7241" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
@@ -638,9 +590,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="923" column="36" selection-start="41041" selection-end="41041" vertical-scroll-proportion="-17.583334" vertical-offset="13423" max-vertical-offset="14115">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#section#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#2;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#section#2;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#section#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#section#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ul#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#section#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1407127318000" expanded="true" signature="7215:7241" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="543" selection-end="543" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="22" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-24.375" vertical-offset="255" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-7.5" vertical-offset="810" max-vertical-offset="3195">
+        <state line="66" column="58" selection-start="1935" selection-end="1935" vertical-scroll-proportion="23.75" vertical-offset="1560" max-vertical-offset="3195">
           <folding>
             <marker date="1407185796000" expanded="true" signature="2897:3138" placeholder="..." />
             <marker date="1407185796000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -653,10 +654,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
+    <entry file="file://$PROJECT_DIR$/css/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="29" selection-start="1665" selection-end="1697" vertical-scroll-proportion="0.7446808" vertical-offset="255" max-vertical-offset="1140">
-          <folding />
+        <state line="23" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="705">
+          <folding>
+            <marker date="1407200026000" expanded="true" signature="141:186" placeholder="SELECT link ..." />
+          </folding>
         </state>
       </provider>
     </entry>

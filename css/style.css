@@ -405,7 +405,6 @@ ul#genre-list li	{
 
 #footer .bottomMenu {
   border-left: 1px solid #595959;
-  padding-left: 30px;
 }
 
 #footer .bottomMenu.firstone {
@@ -440,7 +439,7 @@ ul#genre-list li	{
 
 #footer li a:hover {
   text-decoration: none;
-  background: #E1A304 !important;
+  background: #36a2d2 !important;
 
   box-shadow: 0 1px 2px inset;
   color: white !important;

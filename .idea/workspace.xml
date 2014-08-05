@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/video.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video.php" afterPath="$PROJECT_DIR$/video.php" />
     </list>
     <ignored path="movies.iws" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-11.25" vertical-offset="105" max-vertical-offset="14115">
+            <state line="931" column="27" selection-start="41459" selection-end="41459" vertical-scroll-proportion="-22.583334" vertical-offset="13423" max-vertical-offset="14115">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,28 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="video.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="255" selection-end="255" vertical-scroll-proportion="13.125" vertical-offset="405" max-vertical-offset="1140">
+            <state line="79" column="9" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.9574468" vertical-offset="510" max-vertical-offset="1305">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1407204997000" expanded="true" signature="1139:1183" placeholder="SELECT link ..." />
-                <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-                <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-                <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-                <marker date="1407204997000" expanded="true" signature="1428:1440" placeholder="..." />
+                <marker date="1407205270000" expanded="true" signature="1139:1183" placeholder="SELECT link ..." />
+                <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+                <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+                <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+                <marker date="1407205270000" expanded="true" signature="1428:1440" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/video.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08230453" vertical-offset="0" max-vertical-offset="729">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -188,8 +178,8 @@
         <option value="$PROJECT_DIR$/movie.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/css/video.php" />
-        <option value="$PROJECT_DIR$/video.php" />
         <option value="$PROJECT_DIR$/css/video.css" />
+        <option value="$PROJECT_DIR$/video.php" />
       </list>
     </option>
   </component>
@@ -637,9 +627,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.2549575" vertical-offset="0" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-11.25" vertical-offset="105" max-vertical-offset="14115">
+        <state line="931" column="27" selection-start="41459" selection-end="41459" vertical-scroll-proportion="-22.583334" vertical-offset="13423" max-vertical-offset="14115">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -667,30 +671,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="255" selection-end="255" vertical-scroll-proportion="13.125" vertical-offset="405" max-vertical-offset="1140">
+        <state line="79" column="9" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.9574468" vertical-offset="510" max-vertical-offset="1305">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1407204997000" expanded="true" signature="1139:1183" placeholder="SELECT link ..." />
-            <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-            <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-            <marker date="1407204997000" expanded="true" signature="1428:1501" placeholder="..." />
-            <marker date="1407204997000" expanded="true" signature="1428:1440" placeholder="..." />
+            <marker date="1407205270000" expanded="true" signature="1139:1183" placeholder="SELECT link ..." />
+            <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+            <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+            <marker date="1407205270000" expanded="true" signature="1428:1501" placeholder="..." />
+            <marker date="1407205270000" expanded="true" signature="1428:1440" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.2549575" vertical-offset="0" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/video.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08230453" vertical-offset="0" max-vertical-offset="729">
-          <folding />
         </state>
       </provider>
     </entry>

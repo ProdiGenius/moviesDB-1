@@ -21,6 +21,6 @@ if (!$response)
 
 $row = mysqli_fetch_array($response);
 
-echo $row['link'];
+echo ("<p>{$row['link']}</p>");
 
 ?>

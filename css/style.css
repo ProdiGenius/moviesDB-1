@@ -378,13 +378,15 @@ ul#genre-list li	{
 }
 
 #footer p {
-  background: #36a2d2;
-  padding: 4px 0;
-  text-align: center;
-  display: block;
-  clear: both;
-  margin: 0;
-  color:white;
+    background: #36a2d2;
+    padding: 4px 0;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 15px;
+    color:white;
 }
 
 #footer a {
@@ -455,7 +457,7 @@ ul#genre-list li	{
 }
 
 #footer h4 {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 0 5px 0px;
     text-transform: uppercase;
     color: #838383;

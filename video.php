@@ -21,6 +21,8 @@ if (!$response)
 
 $row = mysqli_fetch_array($response);
 
-echo ("<p>".$row['link']."</p>");
+$video_link = $row['link'];
+
+echo ("<p>". $video_link ."</p>");
 
 ?>

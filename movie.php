@@ -124,7 +124,7 @@
                 while ($row = mysqli_fetch_assoc($retval)) {
                     echo('
                     <tr>
-                        <td><a href=' . addhttp($row["link"]) . '>' . $row["link"] . '</a> </td>
+                        <td><a href=video.php?name=' .$name. '&id='.$row["id"].'>' . $row["link"] . '</a> </td>
                         <td>'.$row["quality"].'</td>
                         <td>' . $row["created"] . '</td>
                         <td>

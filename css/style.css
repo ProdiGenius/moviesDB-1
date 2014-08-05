@@ -430,13 +430,15 @@ ul#genre-list li	{
     display: block;
     padding: 5px !important;
     margin: -5px 0 !important;
-    -webkit-border-radius: 3.1px;
-    -moz-border-radius: 3.1px;
-    -ms-border-radius: 3.1px;
-    -o-border-radius: 3.1px;
-    border-radius: 3.1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    transition: all 0.3s ease-out;
     background: #97CAF2;
     overflow: hidden;
+    color: white !important;
 }
 
 #footer li a:hover {

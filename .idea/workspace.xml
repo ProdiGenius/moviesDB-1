@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,19 +38,23 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="869" column="31" selection-start="39382" selection-end="39382" vertical-scroll-proportion="0.08959538" vertical-offset="7153" max-vertical-offset="8295">
+            <state line="43" column="22" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-0.31914893" vertical-offset="870" max-vertical-offset="1845">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3619#3891#0" expanded="false" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#20760#39246#0" expanded="false" />
-                <marker date="1407274022000" expanded="true" signature="7611:7637" placeholder="..." />
+                <element signature="e#8584#20743#0" expanded="false" />
+                <element signature="e#20746#39232#0" expanded="false" />
+                <marker date="1407275979000" expanded="true" signature="7597:7623" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -58,7 +63,7 @@
       <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="10" selection-start="5054" selection-end="5054" vertical-scroll-proportion="-106.875" vertical-offset="0" max-vertical-offset="3195">
+            <state line="171" column="10" selection-start="5054" selection-end="5054" vertical-scroll-proportion="-6.25" vertical-offset="2415" max-vertical-offset="3195">
               <folding>
                 <marker date="1407206218000" expanded="true" signature="2897:3138" placeholder="..." />
                 <marker date="1407206218000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -376,15 +381,19 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3619#3891#0" expanded="false" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20760#39246#0" expanded="false" />
-            <marker date="1407274022000" expanded="true" signature="7611:7637" placeholder="..." />
+            <element signature="e#8584#20743#0" expanded="false" />
+            <element signature="e#20746#39232#0" expanded="false" />
+            <marker date="1407275979000" expanded="true" signature="7597:7623" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -627,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="10" selection-start="5054" selection-end="5054" vertical-scroll-proportion="-106.875" vertical-offset="0" max-vertical-offset="3195">
+        <state line="171" column="10" selection-start="5054" selection-end="5054" vertical-scroll-proportion="-6.25" vertical-offset="2415" max-vertical-offset="3195">
           <folding>
             <marker date="1407206218000" expanded="true" signature="2897:3138" placeholder="..." />
             <marker date="1407206218000" expanded="true" signature="2922:3109" placeholder="..." />
@@ -643,19 +652,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="869" column="31" selection-start="39382" selection-end="39382" vertical-scroll-proportion="0.08959538" vertical-offset="7153" max-vertical-offset="8295">
+        <state line="43" column="22" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-0.31914893" vertical-offset="870" max-vertical-offset="1845">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3619#3891#0" expanded="false" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#ul#0;n#section#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20760#39246#0" expanded="false" />
-            <marker date="1407274022000" expanded="true" signature="7611:7637" placeholder="..." />
+            <element signature="e#8584#20743#0" expanded="false" />
+            <element signature="e#20746#39232#0" expanded="false" />
+            <marker date="1407275979000" expanded="true" signature="7597:7623" placeholder="..." />
           </folding>
         </state>
       </provider>

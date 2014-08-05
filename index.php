@@ -54,7 +54,7 @@
 	<div id="video-cat-section">
 		<div id="movie-cat">
 			<div id="movie-bar">
-			<h1 style="padding:10px 15px; font-family:Arial; font-size:12.5px; font-weight:bold; color:#3B3B3B;">MOVIES</h1>
+			<h1 style="padding:10px 15px; font-family:Arial; font-size:12px; font-weight:bold; color:#3B3B3B;">MOVIES</h1>
 			<ul class="browse-cat-list">
 			<li><a href="/TV-shows-AZ"
 				title="Browse Tv-Shows Titles A-Z">Movies by Title (A-Z)</a>
@@ -71,7 +71,7 @@
 		</div>
 		<div id="tv-cat">
 		<div id="tv-bar">
-			<h1 style="padding:10px 15px; font-family:Arial; font-size:12.5px; font-weight:bold; color:#3B3B3B;">TV-SHOWS</h1>
+			<h1 style="padding:10px 15px; font-family:Arial; font-size:12px; font-weight:bold; color:#3B3B3B;">TV-SHOWS</h1>
 			<ul class="browse-cat-list">
 			<li><a href="/TV-shows-AZ"
 				title="Browse Tv-Shows Titles A-Z">Tv-Shows by Title (A-Z)</a>
@@ -102,13 +102,13 @@
 		<div id="ad-box">
 		<h2 style="text-align:center; color:#70716F; margin-top: 20px;"> Welcome to the official WatchItFree
 		<span style="color:#FC8700;">ALPHA!</span></h2>
-		<br></br>
+		<br>
 		<p style="margin:0px 10px 0px 10px; font-weight:bold; color:#70716F;"> WatchItFree.me is currently in ALPHA stage. This means that the movie library you see here
 		is only a sample of what's to come in the future! However, until full release, we will still be
 		adding <span>Newly Released</span> films in High quality. For movie and website updates you can
 		like and follow us on Facebook and Twitter. Make sure to also Bookmark this page to continue viewing
 		our selection of free movies in the future!
-		<br></br>
+		<br>
 		</div>	
 	</div>
 	
@@ -863,30 +863,9 @@
 	</div>	
 	</div>-->
 </div>
-
-<div id="footer">
-    <div class="wrapper">
-        <div class="bottomMenu container firstone">
-            <h4>Site Links</h4>
-            <ul>
-                <li><a href="/keywords.html">Keywords</a></li>
-                <li><a href="/genres.html">Movie Genres</a></li>
-                <li><a href="/years.html">Movie Years</a></li>
-                <li><a href="/tv/genres.html">TV Show Genres</a></li>
-                <li><a href="/tv/years.html">TV Show Years</a></li>
-                <li><a href="/trends/">Trends</a></li>
-                <li><a href="/latest-watched-movies.html">Latest Watched</a></li>
-                <li><a href="/terms.html">Terms of Service</a></li>
-                <li><a href="/rules.html">Rules</a></li>
-                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="/contacts.html">Contacts</a></li>
-            </ul>
         </div>
     </div>
-    <p>
-        WatchItFree provides links to other sites on the internet and doesn't host any files itself.
-    </p>
-</div>
+
 <script type='text/javascript'> // Javascript for on.click button effects
 	jQuery(function() {		
 	$('ul#category-list li').click(function(){
@@ -932,5 +911,31 @@
     ga('send', 'pageview');
 
 </script>
+
+
+
+            <div id="footer">
+                <div class="wrapper">
+                    <div class="bottomMenu container firstone">
+                        <h4>Site Links</h4>
+                        <ul>
+                            <li><a href="/keywords.html">Keywords</a></li>
+                            <li><a href="/genres.html">Movie Genres</a></li>
+                            <li><a href="/years.html">Movie Years</a></li>
+                            <li><a href="/tv/genres.html">TV Show Genres</a></li>
+                            <li><a href="/tv/years.html">TV Show Years</a></li>
+                            <li><a href="/trends/">Trends</a></li>
+                            <li><a href="/latest-watched-movies.html">Latest Watched</a></li>
+                            <li><a href="/terms.html">Terms of Service</a></li>
+                            <li><a href="/rules.html">Rules</a></li>
+                            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="/contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    WatchItFree provides links to other sites on the internet and doesn't host any files itself.
+                </p>
+            </div>
 </body>
 </html>

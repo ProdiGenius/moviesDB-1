@@ -35,9 +35,8 @@ $video_link = addhttp($video_link);
 echo ('
 
     <div id="video_container">
-        <iframe src="'.$video_link.'" height="500px" width="500px">
 
-        </iframe>
+        <h1><a href="'.$video_link.'">CLICK HERE TO PROCEED TO THE VIDEO</a></h1>
 
     </div>
 

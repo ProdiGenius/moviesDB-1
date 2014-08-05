@@ -93,12 +93,13 @@
       <file leaf-file-name="video.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.9148936" vertical-offset="15" max-vertical-offset="765">
+            <state line="38" column="81" selection-start="672" selection-end="672" vertical-scroll-proportion="0.80851066" vertical-offset="0" max-vertical-offset="750">
               <folding>
-                <marker date="1407203767000" expanded="true" signature="304:348" placeholder="SELECT link ..." />
-                <marker date="1407203767000" expanded="true" signature="588:687" placeholder="..." />
-                <marker date="1407203767000" expanded="true" signature="588:610" placeholder="..." />
-                <marker date="1407203767000" expanded="true" signature="588:610" placeholder="..." />
+                <marker date="1407204559000" expanded="true" signature="304:348" placeholder="SELECT link ..." />
+                <marker date="1407204559000" expanded="true" signature="588:683" placeholder="..." />
+                <marker date="1407204559000" expanded="true" signature="588:672" placeholder="..." />
+                <marker date="1407204559000" expanded="true" signature="588:672" placeholder="..." />
+                <marker date="1407204559000" expanded="true" signature="588:611" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -660,12 +661,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.9148936" vertical-offset="15" max-vertical-offset="765">
+        <state line="38" column="81" selection-start="672" selection-end="672" vertical-scroll-proportion="0.80851066" vertical-offset="0" max-vertical-offset="750">
           <folding>
-            <marker date="1407203767000" expanded="true" signature="304:348" placeholder="SELECT link ..." />
-            <marker date="1407203767000" expanded="true" signature="588:687" placeholder="..." />
-            <marker date="1407203767000" expanded="true" signature="588:610" placeholder="..." />
-            <marker date="1407203767000" expanded="true" signature="588:610" placeholder="..." />
+            <marker date="1407204559000" expanded="true" signature="304:348" placeholder="SELECT link ..." />
+            <marker date="1407204559000" expanded="true" signature="588:683" placeholder="..." />
+            <marker date="1407204559000" expanded="true" signature="588:672" placeholder="..." />
+            <marker date="1407204559000" expanded="true" signature="588:672" placeholder="..." />
+            <marker date="1407204559000" expanded="true" signature="588:611" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -279,7 +279,7 @@ margin:0px 10px;
 padding: 5px 5px;
 color: #3B3B3B;
 font-family: Arial;
-font-size: 12.5px;
+font-size: 12px;
 text-decoration: none;
 vertical-align: middle;
 border: 0px dotted #1c1c1c;
@@ -407,7 +407,7 @@ ul#genre-list li	{
   border-left: 1px solid #595959;
 }
 
-#footer .bottomMenu.firstone {
+#footer .bottomMenu .firstone {
   border-left: none;
   padding-left: 0;
 }
@@ -416,7 +416,7 @@ ul#genre-list li	{
     float: left;
     width: 120px;
     list-style: none outside none;
-    margin: 6px 15px 6px 5px;
+    margin: 10px 20px 20px 0px;
     white-space: nowrap;
     height: 15px;
     display: block;
@@ -444,8 +444,6 @@ ul#genre-list li	{
 #footer li a:hover {
     text-decoration: none;
     background: #36a2d2 !important;
-
-    box-shadow: 0 1px 2px inset;
     color: white !important;
 }
 
@@ -459,7 +457,7 @@ ul#genre-list li	{
 
 #footer h4 {
     font-size: 14px;
-    margin: 0 0 5px 10px;
+    margin: 0 0 5px 0px;
     text-transform: uppercase;
     color: #838383;
     font-family:Verdana;
@@ -467,7 +465,7 @@ ul#genre-list li	{
 .bottomMenu {
   float: left;
   display: inline-block;
-  width: 280px;
+  width: 600px;
   margin-bottom: 10px;
   margin-top: 20px;
 }

@@ -20,7 +20,7 @@ if (!$response)
 }
 
 while ($row = mysqli_fetch_assoc($response)) {
-    echo row['link'];
+    echo $row['link'];
 }
 
 /*$video_link = $row["link"];

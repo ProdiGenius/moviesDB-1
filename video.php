@@ -10,7 +10,7 @@ $name = urlencode($name);
 
 //echo("Movie: " . $name . " id: " . $link_id);
 
-$sql = "SELECT link FROM `$name` WHERE id='$$link_id'";
+$sql = "SELECT link FROM `$name` WHERE id='$link_id'";
 
 $response = mysqli_query($conn, $sql);
 

@@ -93,9 +93,9 @@
       <file leaf-file-name="video.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="1" selection-start="382" selection-end="382" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="705">
+            <state line="16" column="15" selection-start="271" selection-end="271" vertical-scroll-proportion="0.34042552" vertical-offset="0" max-vertical-offset="705">
               <folding>
-                <marker date="1407202720000" expanded="true" signature="168:213" placeholder="SELECT link ..." />
+                <marker date="1407202795000" expanded="true" signature="168:212" placeholder="SELECT link ..." />
               </folding>
             </state>
           </provider>
@@ -657,9 +657,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="382" selection-end="382" vertical-scroll-proportion="0.4893617" vertical-offset="0" max-vertical-offset="705">
+        <state line="16" column="15" selection-start="271" selection-end="271" vertical-scroll-proportion="0.34042552" vertical-offset="0" max-vertical-offset="705">
           <folding>
-            <marker date="1407202720000" expanded="true" signature="168:213" placeholder="SELECT link ..." />
+            <marker date="1407202795000" expanded="true" signature="168:212" placeholder="SELECT link ..." />
           </folding>
         </state>
       </provider>

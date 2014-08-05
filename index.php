@@ -115,8 +115,8 @@
 	<div id="movie-section">
 		<ul id="category-list">
 		<li class="active"><a class="button" href="#1">NEW MOVIES</a></li>
-		<li class="inactive"><a class="button" href="#1">HD MOVIES</a></li>
-		<li class="inactive"><a class="button" href="#1">MOST POPULAR</a></li>
+		<!--<li class="inactive"><a class="button" href="#1">HD MOVIES</a></li>
+		<li class="inactive"><a class="button" href="#1">MOST POPULAR</a></li>-->
 		</ul>
 		<section class="sec fade">
 			<ul class="movie-display" id="new-movs">
@@ -214,7 +214,7 @@
 
 		?>
     <a class="showMore" href="/new-movies.html">more »</a>
-	</div>
+	<!--</div>
 		</section>	
 		<section class="sec">
 			<ul class="movie-display" id="hd-movs">
@@ -471,9 +471,9 @@
         </ul>
     <a class="showMore" href="/new-movies.html">more »</a>
 	</section>
-	</div>
+	</div>-->
 
-	<div id="genre-section">
+	<!--<div id="genre-section">
 		<ul id="genre-list">
 		<li class="active"><a class="button" href="#1">ACTION</a></li>
 		<li class="inactive"><a class="button" href="#1">DRAMA</a></li>
@@ -861,7 +861,7 @@
 		<a class="showMore" href="/comedy-movies.html">more »</a>
 		</section>
 	</div>	
-	</div>
+	</div>-->
 </div>
 
 <div id="footer">

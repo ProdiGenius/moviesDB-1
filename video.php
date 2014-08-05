@@ -3,6 +3,7 @@
 <head>
     <link rel='stylesheet' type ='text/css' href='css/style.css' />
     <link rel="stylesheet" type="text/css" href="css/search.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/video.css" media="screen" />
 </head>
 
 <body>

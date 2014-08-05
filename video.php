@@ -10,6 +10,14 @@ $name = urlencode($name);
 
 //echo("Movie: " . $name . " id: " . $link_id);
 
+function addhttp($url)
+{
+    if (!preg_match("~^(?:f|ht)tps?://~i", $url)) {
+        $url = "http://" . $url;
+    }
+    return $url;
+}
+
 $sql = "SELECT link FROM `$name` WHERE id='$link_id'";
 
 $response = mysqli_query($conn, $sql);
@@ -22,6 +30,7 @@ if (!$response)
 $row = mysqli_fetch_assoc($response);
 
 $video_link = $row["link"];
+$video_link = addhttp($video_link);
 
 echo ('
 
@@ -33,7 +42,5 @@ echo ('
     </div>
 
 ');
-
-echo ($video_link);
 
 ?>

@@ -19,7 +19,7 @@ if (!$response)
 
 $row = mysqli_fetch_array($response);
 
-echo ($row[0]);
+echo ($row['link']);
 
 
 ?>

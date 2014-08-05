@@ -394,7 +394,7 @@ ul#genre-list li	{
 #footer .wrapper {
   margin: 0 auto;
   position: relative;
-  width: 1020px;
+  width: 1140px;
   height: 195px;
 }
 
@@ -413,44 +413,45 @@ ul#genre-list li	{
 }
 
 #footer li {
-  float: left;
-  width: 120px;
-  font-size: 12px;
-  list-style: none outside none;
-  margin: 6px 15px 6px 5px;
-  white-space: nowrap;
-  height: 15px;
-  display: block;
-  font-family:Arial;
+    float: left;
+    width: 120px;
+    list-style: none outside none;
+    margin: 6px 15px 6px 5px;
+    white-space: nowrap;
+    height: 15px;
+    display: block;
+    font-family:Verdana;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 #footer li a {
-	text-decoration:none;
-  display: block;
-  padding: 5px !important;
-  margin: -5px 0 !important;
-  -webkit-border-radius: 3.1px;
-  -moz-border-radius: 3.1px;
-  -ms-border-radius: 3.1px;
-  -o-border-radius: 3.1px;
-  border-radius: 3.1px;
-  overflow: hidden;
+    text-decoration:none;
+    display: block;
+    padding: 5px !important;
+    margin: -5px 0 !important;
+    -webkit-border-radius: 3.1px;
+    -moz-border-radius: 3.1px;
+    -ms-border-radius: 3.1px;
+    -o-border-radius: 3.1px;
+    border-radius: 3.1px;
+    overflow: hidden;
 }
 
 #footer li a:hover {
-  text-decoration: none;
-  background: #36a2d2 !important;
+    text-decoration: none;
+    background: #36a2d2 !important;
 
-  box-shadow: 0 1px 2px inset;
-  color: white !important;
+    box-shadow: 0 1px 2px inset;
+    color: white !important;
 }
 
 #footer h4 {
-  font-size: 14px;
-  margin: 0 0 5px 10px;
-  text-transform: uppercase;
-  color: #838383;
-  font-family:Arial;
+    font-size: 14px;
+    margin: 0 0 5px 10px;
+    text-transform: uppercase;
+    color: #838383;
+    font-family:Verdana;
 }
 .bottomMenu {
   float: left;

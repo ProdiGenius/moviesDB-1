@@ -19,10 +19,12 @@ if (!$response)
     die ("Could not get data.");
 }
 
-$row = mysqli_fetch_array($response);
+while ($row = mysqli_fetch_assoc($response)) {
+    echo row['link'];
+}
 
-$video_link = $row["link"];
+/*$video_link = $row["link"];
 
-echo ("<p>". $video_link ."</p>");
+echo ("<p>". $video_link ."</p>");*/
 
 ?>

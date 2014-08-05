@@ -17,9 +17,9 @@ if (!$response)
     die ("Could not get data.");
 }
 
-while ($row = mysqli_fetch_assoc($response))
-{
-    echo ($row[0]);
-}
+$row = mysqli_fetch_array($response);
+
+echo ($row[0]);
+
 
 ?>

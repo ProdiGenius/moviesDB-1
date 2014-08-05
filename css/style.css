@@ -435,6 +435,7 @@ ul#genre-list li	{
     -ms-border-radius: 3.1px;
     -o-border-radius: 3.1px;
     border-radius: 3.1px;
+    background: #97CAF2;
     overflow: hidden;
 }
 
@@ -444,6 +445,14 @@ ul#genre-list li	{
 
     box-shadow: 0 1px 2px inset;
     color: white !important;
+}
+
+#footer li a:visited {
+    background: #F2BF97;
+}
+
+#footer li a:active {
+    background: #C4E1F8;
 }
 
 #footer h4 {

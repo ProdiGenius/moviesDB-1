@@ -882,10 +882,10 @@
                 <li><a href="/contacts.html">Contacts</a></li>
             </ul>
         </div>
-        <p>
-            WatchItFree provides links to other sites on the internet and doesn't host any files itself.
-        </p>
-
+    </div>
+    <p>
+        WatchItFree provides links to other sites on the internet and doesn't host any files itself.
+    </p>
 </div>
 <script type='text/javascript'> // Javascript for on.click button effects
 	jQuery(function() {		

@@ -137,13 +137,13 @@
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
 						src="http://img.omdbapi.com/?i=tt1840309&apikey=dcff2d3d"/></a>
 				</div>
-				<div><a href="" title="1">
+				<div><a href="movie.php?id=The%20Expendables%203" title="The Expendables 3 (2014)">
 					<img class="hoverable" id="js-img-lazy"
-						src="resources/images/captain.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt2333784&apikey=dcff2d3d"/></a>
 				</div>
-				<div><a href="" title="1">
+				<div><a href="movie.php?id=Transcendence" title="Transcendence (2014)">
 					<img class="hoverable" id="js-img-lazy"
-						src="resources/images/2.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt2209764&apikey=dcff2d3d"/></a>
 				</div>
 			</ul>
 		<div class="threeColList">

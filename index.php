@@ -121,21 +121,21 @@
 		<section class="sec fade">
 			<ul class="movie-display" id="new-movs">
 				<div>
-					<a href="/watch-the-amazing-spider-man-2-2014.html" title="The Amazing Spider-Man 2 (2014)">
+					<a href="movie.php?id=The%20Amazing%20Spider-man%202" title="The Amazing Spider-Man 2 (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="The Amazing Spider-Man 2 (2014)"
-						src="resources/images/spiderman.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt1872181&apikey=dcff2d3d"/></a>
 				</div>
-				<div style="margin-left: 0px;"><a href="" title="300: Rise of an Empire (2014)">
+				<div style="margin-left: 0px;"><a href="movie.php?id=300:%20Rise%20Of%20An%20Empire" title="300: Rise of an Empire (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="300: Rise of an Empire (2014)"
-						src="resources/images/300.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt1253863&apikey=dcff2d3d"/></a>
 				</div>
-				<div><a href="" title="Captain America (2014)">
+				<div><a href="movie.php?id=Captain%20America:%20The%20Winter%20Soldier" title="Captain America: The Winter Soldier (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Captain America: The Winter Soldier (2014)"
-						src="resources/images/captain.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt1843866&apikey=dcff2d3d"/></a>
 				</div>
-				<div><a href="" title="Divergent (2014)">
+				<div><a href="movie.php?id=Divergent" title="Divergent (2014)">
 					<img class="hoverable" id="js-img-lazy" alt="Divergent (2014)"
-						src="resources/images/divergent.jpg"/></a>
+						src="http://img.omdbapi.com/?i=tt1840309&apikey=dcff2d3d"/></a>
 				</div>
 				<div><a href="" title="1">
 					<img class="hoverable" id="js-img-lazy"

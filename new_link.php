@@ -121,41 +121,6 @@
         });
       });
 
-
-
-        function checkLinks() {
-            var valid_domains = new Array("ovfile.com", "videozer.com", "royalvids.eu", "divxstage.eu",
-                "divxstage.net", "veevr.com", "gorillavid.com", "gorillavid.in", "megavideo", "movshare.net",
-                "zshare", "tudou", "youtube", "youku", "vidbux.com", "putlocker.com", "sockshare.com",
-                "videobb.com", "videoweed.es", "videoweed.com", "smotri.com", "fairyshare.com", "milledrive.com",
-                "divxden.com", "vidxden.com", "miloyski.com", "sina.com", "putfile.com", "novamov.com",
-                "wisevid.com", "loombo.com", "vidbux.com", "zalaa.com", "vidhog.com", "xvidstage.com",
-                "nowvideo.eu", "divxbase.com", "nosvideo.com", "vidbull.com", "mooshare.biz", "180upload.com",
-                "videobam.com", "allmyvideos.net", "modovideo.com", "vidspot.net", "vodlocker.com", "movreel.com",
-                "video.tt", "faststream.in", "vidto.me", "firedrive.com");
-            inputs = document.getElementById('host', 'link').elements;
-            validation = true;
-            for (i = 1; i < inputs.length - 1; i++) {
-                if (inputs[i].value.length > 0) {
-                    valid = false;
-                    for (did in valid_domains) {
-                        if ((" " + inputs[i].value).indexOf(valid_domains[did]) > 0) {
-                            valid = true;
-                            break;
-                        }
-                    }
-                    if (valid == false) {
-                        alert("This host is not allowed: " + inputs[i].value);
-                        validation = false;
-                        inputs[i].focus();
-                        break;
-                    }
-                }
-            }
-            return validation;
-        }
-
-
     </script>
 
 </head>

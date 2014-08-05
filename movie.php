@@ -105,7 +105,7 @@
                     <!-- Table Body -->
                     <tbody>');
 
-                $sql = "SELECT link, quality, created FROM `$name`";
+                $sql = "SELECT id, link, quality, created FROM `$name`";
 
                 $retval = mysqli_query($conn, $sql);
 

@@ -132,7 +132,7 @@ ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         echo ('<a href="sort.php?page=0" class="page gradient">First</a>');
         for ($i = 0; $i < $number_pages; ++$i)
         {
-            $link_address = 'sort.php?'.$sort_url.'&page='.$i;
+            $link_address = 'sort.php?sort='.$sort_url.'&page='.$i;
             echo "<a href='".$link_address."' class='page gradient'>$i</a>";
         }
         $last_link = $number_pages - 1;

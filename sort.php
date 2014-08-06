@@ -80,7 +80,7 @@ ajax/libs/jquery/1.4.2/jquery.min.js"></script>
             die ("Could not get data.");
         }
 
-        $row = mysqli_fetch_array($return, MYSQL_NUM);
+        $row = mysqli_fetch_array($return);
         $rec_count = $row[0];
 
 

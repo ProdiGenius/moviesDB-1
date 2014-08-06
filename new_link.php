@@ -152,7 +152,7 @@
 
 </div>
 
-
+<div id="page-content">
 <fieldset id="link_form">
 
     <div id = "movie_select">
@@ -204,6 +204,9 @@
 
 </fieldset>
 
+<div id="push"></div>
+
+</div>
 <div id="footer">
     <div class="wrapper">
         <div class="bottomMenu container firstone">

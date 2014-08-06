@@ -154,6 +154,11 @@
 
                 </table>
 
+
+        <div id="push"></div>
+
+        </div>
+
                 </div>
                 ');
             }
@@ -166,8 +171,6 @@
         mysqli_close($conn);
 
         ?>
-
-        </div>
 
         <div id="footer">
             <div class="wrapper">

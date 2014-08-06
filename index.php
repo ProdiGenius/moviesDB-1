@@ -154,7 +154,8 @@ include 'datalogin.php';
 //$table_list = "SHOW TABLES FROM `movies` ";
 
 //STAGING !!
-$table_list = "SHOW TABLES FROM `heroku_d78f3829bda1f61` ";
+$table_list = "select table_name from information_schema.tables
+ where table_schema = 'heroku_d78f3829bda1f61' order by create_time;";
 
 $counter = 0;
 

@@ -92,13 +92,18 @@ a {
     background-image: none;
 }
 #page-content{
-	position:relative;
 	width: 1140px;
-	top:80px;
 	margin-left:auto;
 	margin-right:auto;
 	min-height:100%;
+    margin-bottom: 226px;
 }
+
+#page-content:after {
+    content: "";
+    display: block;
+}
+
 /* Beginning of gallery styles */
 #gallery{
 	position: absolute;
@@ -374,6 +379,10 @@ ul#genre-list li	{
   width: 100%;
   margin-top: 20px;
   opacity:0.9;
+}
+
+#footer, #page-content:after {
+    height: 226px;
 }
 
 #footer p {

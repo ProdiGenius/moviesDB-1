@@ -366,7 +366,6 @@ ul#genre-list li	{
     transform: scale(1.04);
 }
 #footer {
-  position:relative;
   padding-top: 5px;
   background: #EFEBE8;
   top:500px;

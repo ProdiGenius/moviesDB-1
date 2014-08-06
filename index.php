@@ -62,16 +62,10 @@ include 'datalogin.php';
             <h1 style="padding:10px 15px; font-family:Arial; font-size:12px; font-weight:bold; color:#3B3B3B;">
                 MOVIES</h1>
             <ul class="browse-cat-list">
-                <li><a href="/TV-shows-AZ"
-                       title="Browse Tv-Shows Titles A-Z">Movies by Title (A-Z)</a>
-                <li><a href="/TV-shows-Recent-episodes"
-                       title="Browse recently aired episodes">Recently Added Movies</a>
-                <li><a href="/TV-shows-Popular"
-                       title="Browse Tv-shows by Popularity">Popular Movies</a>
-                <li><a href="/TV-shows-Release-date"
-                       title="Browse Tv-shows by Release date">Movies by Release Date</a>
-                <li><a href="/TV-shows-Genres"
-                       title="Browse Tv-Shows by Genre">Browse Movies by Genre</a>
+                <li><a href="sort.php?sort=alpha"
+                       title="Browse Movies Alphabetically A-Z">Movies by Title (A-Z)</a></li>
+                <li><a href="sort.php?sort=date"
+                       title="Browse Recently Added Movies (By Date)">Recently Added Movies</a></li>
             </ul>
         </div>
     </div>
@@ -896,26 +890,6 @@ mysqli_close($conn);
         var jssor_slider1 = new $JssorSlider$('gallery', options);
     });
 </script>
-<script language="javascript" type="text/javascript" src="js/link_target.js"></script>
-<script src="js/search.js"></script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-53458532-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
 
 <div id="footer">
     <div class="wrapper">
@@ -940,5 +914,25 @@ mysqli_close($conn);
         WatchItFree provides links to other sites on the internet and doesn't host any files itself.
     </p>
 </div>
+<script language="javascript" type="text/javascript" src="js/link_target.js"></script>
+<script src="js/search.js"></script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-53458532-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
 </body>
 </html>

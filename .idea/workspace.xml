@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort.php" afterPath="$PROJECT_DIR$/sort.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sort.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sort.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="43" selection-start="3690" selection-end="3690" vertical-scroll-proportion="0.7615607" vertical-offset="1483" max-vertical-offset="3045">
+            <state line="134" column="43" selection-start="3690" selection-end="3690" vertical-scroll-proportion="-21.958334" vertical-offset="1483" max-vertical-offset="3045">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,6 +77,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.2674897" vertical-offset="0" max-vertical-offset="729">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -97,7 +106,6 @@
         <option value="$PROJECT_DIR$/Moviestyle2.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/movie_styles.css" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/css/movie_styles.css" />
         <option value="$PROJECT_DIR$/recaptchalib.php" />
         <option value="$PROJECT_DIR$/search.css" />
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sort.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -522,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="206" column="15" selection-start="5894" selection-end="5894" vertical-scroll-proportion="4.4653177" vertical-offset="0" max-vertical-offset="3780">
@@ -588,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="43" selection-start="3690" selection-end="3690" vertical-scroll-proportion="0.7615607" vertical-offset="1483" max-vertical-offset="3045">
+        <state line="134" column="43" selection-start="3690" selection-end="3690" vertical-scroll-proportion="-21.958334" vertical-offset="1483" max-vertical-offset="3045">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -612,6 +614,13 @@
             <marker date="1407369436000" expanded="true" signature="4963:5039" placeholder="..." />
             <marker date="1407369436000" expanded="true" signature="5214:5263" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.2674897" vertical-offset="0" max-vertical-offset="729">
+          <folding />
         </state>
       </provider>
     </entry>

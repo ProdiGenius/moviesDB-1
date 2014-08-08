@@ -48,9 +48,22 @@
 
         $name = $_GET["id"];
 
-        ini_set('user_agent', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.9) Gecko/20071025 Firefox/2.0.0.9');
-
         $name = urlencode($name);
+
+        $sql = "SHOW TABLES LIKE '".$name."'";
+
+        $retval = mysqli_query($conn, $sql);
+
+        if (!$retval) {
+            die ("Could not get data.");
+        }
+
+        $row_count = mysqli_num_rows($retval);
+
+        if ($row_count < 1)
+        {
+            die ("This movie doesn't exist. Sorry. (404)");
+        }
 
 
         if (false !== ($json = file_get_contents("http://www.omdbapi.com/?t=$name"))) {
@@ -110,7 +123,7 @@
                 $retval = mysqli_query($conn, $sql);
 
                 if (!$retval) {
-                    die ("could not get data.");
+                    die ("Could not get data.");
                 }
 
                 function addhttp($url)

@@ -53,6 +53,36 @@ if ($_POST) {
             die ($output);
         }
 
+        if(mb_substr($link, 0, 4) !== 'http') $link = 'http://' . $link;
+
+        $link_host = parse_url($link);
+        $link_host = $link_host['host'];
+
+        $valid_hosts = array("ovfile.com", "videozer.com", "royalvids.eu", "divxstage.eu",
+                "divxstage.net", "veevr.com", "gorillavid.com", "gorillavid.in", "megavideo", "movshare.net",
+                "zshare", "tudou", "youtube", "youku", "vidbux.com", "putlocker.com", "sockshare.com",
+                "videobb.com", "videoweed.es", "videoweed.com", "smotri.com", "fairyshare.com", "milledrive.com",
+                "divxden.com", "vidxden.com", "miloyski.com", "sina.com", "putfile.com", "novamov.com",
+                "wisevid.com", "loombo.com", "vidbux.com", "zalaa.com", "vidhog.com", "xvidstage.com",
+                "nowvideo.eu", "divxbase.com", "nosvideo.com", "vidbull.com", "mooshare.biz", "180upload.com",
+                "videobam.com", "allmyvideos.net", "modovideo.com", "vidspot.net", "vodlocker.com", "movreel.com",
+                "video.tt", "faststream.in", "vidto.me", "firedrive.com");
+
+
+        $is_host_valid = false;
+
+        foreach ($valid_hosts as $host) {
+            if ((strpos($link_host, $host) !== false)) {
+                $is_host_valid = true;
+                break;
+            }
+        }
+
+        if ($is_host_valid == false) {
+            $output = json_encode(array('type' => 'error', 'text' => 'This is not a valid host.' . $link_host));
+            die ($output);
+        }
+
         $name = urlencode($name);
 
         $json = file_get_contents("http://www.omdbapi.com/?t=$name");

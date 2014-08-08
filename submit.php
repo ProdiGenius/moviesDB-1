@@ -87,7 +87,7 @@ if ($_POST) {
         }
 
         if ($is_host_valid == false) {
-            $output = json_encode(array('type' => 'error', 'text' => 'This is not a valid host.' . $link_host));
+            $output = json_encode(array('type' => 'error', 'text' => $link_host . ' is not a valid host.'));
             die ($output);
         }
 

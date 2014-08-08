@@ -53,7 +53,15 @@ if ($_POST) {
             die ($output);
         }
 
-        if(mb_substr($link, 0, 4) !== 'http') $link = 'http://' . $link;
+        function addhttp($url)
+        {
+            if (!preg_match("~^(?:f|ht)tps?://~i", $url)) {
+                $url = "http://" . $url;
+            }
+            return $url;
+        }
+
+        $link = addhttp($link);
 
         $link_host = parse_url($link);
         $link_host = $link_host['host'];

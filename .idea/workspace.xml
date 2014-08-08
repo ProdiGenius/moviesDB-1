@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10be861c-aa65-4ebe-86d0-daa831a2f055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +68,7 @@
       <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="30" selection-start="3570" selection-end="3570" vertical-scroll-proportion="-13.125" vertical-offset="1440" max-vertical-offset="3240">
+            <state line="120" column="32" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-15.0" vertical-offset="1440" max-vertical-offset="3240">
               <folding>
                 <marker date="1407297188000" expanded="true" signature="3279:3325" placeholder="SELECT id, l..." />
               </folding>
@@ -80,10 +79,10 @@
       <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="26" selection-start="3196" selection-end="3196" vertical-scroll-proportion="0.6621622" vertical-offset="789" max-vertical-offset="2370">
+            <state line="63" column="31" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.4144144" vertical-offset="669" max-vertical-offset="2490">
               <folding>
-                <marker date="1407468541000" expanded="true" signature="3742:3822" placeholder="INSERT INTO ..." />
-                <marker date="1407468541000" expanded="true" signature="4678:4781" placeholder="INSERT INTO ..." />
+                <marker date="1407468894000" expanded="true" signature="3893:3973" placeholder="INSERT INTO ..." />
+                <marker date="1407468894000" expanded="true" signature="4829:4932" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -376,8 +375,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="43" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1710">
           <folding>
-            <marker date="1407468541000" expanded="true" signature="3742:3822" placeholder="INSERT INTO ..." />
-            <marker date="1407468541000" expanded="true" signature="4678:4781" placeholder="INSERT INTO ..." />
+            <marker date="1407468894000" expanded="true" signature="3893:3973" placeholder="INSERT INTO ..." />
+            <marker date="1407468894000" expanded="true" signature="4829:4932" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -619,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="30" selection-start="3570" selection-end="3570" vertical-scroll-proportion="-13.125" vertical-offset="1440" max-vertical-offset="3240">
+        <state line="120" column="32" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-15.0" vertical-offset="1440" max-vertical-offset="3240">
           <folding>
             <marker date="1407297188000" expanded="true" signature="3279:3325" placeholder="SELECT id, l..." />
           </folding>
@@ -628,10 +627,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="26" selection-start="3196" selection-end="3196" vertical-scroll-proportion="0.6621622" vertical-offset="789" max-vertical-offset="2370">
+        <state line="63" column="31" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.4144144" vertical-offset="669" max-vertical-offset="2490">
           <folding>
-            <marker date="1407468541000" expanded="true" signature="3742:3822" placeholder="INSERT INTO ..." />
-            <marker date="1407468541000" expanded="true" signature="4678:4781" placeholder="INSERT INTO ..." />
+            <marker date="1407468894000" expanded="true" signature="3893:3973" placeholder="INSERT INTO ..." />
+            <marker date="1407468894000" expanded="true" signature="4829:4932" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
